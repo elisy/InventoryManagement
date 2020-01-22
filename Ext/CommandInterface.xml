@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.Marketing</Subsystem>
+		<Subsystem>1f248dbf-9b3e-4482-a15f-8acc0de5ecda</Subsystem>
+		<Subsystem>f230c0c7-e4d1-4e95-93d3-c1f7fefe7fa9</Subsystem>
+		<Subsystem>Subsystem.Finance</Subsystem>
+		<Subsystem>Subsystem.SpecificationsAndClassifiers</Subsystem>
+		<Subsystem>Subsystem.Organizer</Subsystem>
+		<Subsystem>Subsystem.Administration</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>

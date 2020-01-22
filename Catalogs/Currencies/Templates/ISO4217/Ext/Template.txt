@@ -1,0 +1,667 @@
+﻿<Items Description="ISO 4217" Columns="Code,CodeSymbol,Name,Description">
+  <Item
+   CodeSymbol="AED"
+   Code="784" Name="United Arab Emirates dirham"
+   Description="United Arab Emirates"/>
+  <Item
+   CodeSymbol="AFN"
+   Code="971" Name="Afghani"
+   Description="Afghanistan"/>
+  <Item
+   CodeSymbol="ALL"
+   Code="008" Name="Lek"
+   Description="Albania"/>
+  <Item
+   CodeSymbol="AMD"
+   Code="051" Name="Armenian dram"
+   Description="Armenia"/>
+  <Item
+   CodeSymbol="ANG"
+   Code="532" Name="Netherlands Antillean guilder"
+   Description="Netherlands Antilles"/>
+  <Item
+   CodeSymbol="AOA"
+   Code="973" Name="Kwanza"
+   Description="Angola"/>
+  <Item
+   CodeSymbol="ARS"
+   Code="032" Name="Argentine peso"
+   Description="Argentina"/>
+  <Item
+   CodeSymbol="AUD"
+   Code="036" Name="Australian dollar"
+   Description="Tuvalu"/>
+  <Item
+   CodeSymbol="AWG"
+   Code="533" Name="Aruban guilder"
+   Description="Aruba"/>
+  <Item
+   CodeSymbol="AZN"
+   Code="944" Name="Azerbaijanian manat"
+   Description="Azerbaijan"/>
+  <Item
+   CodeSymbol="BAM"
+   Code="977" Name="Convertible marks"
+   Description="Bosnia and Herzegovina"/>
+  <Item
+   CodeSymbol="BBD"
+   Code="052" Name="Barbados dollar"
+   Description="Barbados"/>
+  <Item
+   CodeSymbol="BDT"
+   Code="050" Name="Bangladeshi taka"
+   Description="Bangladesh"/>
+  <Item
+   CodeSymbol="BGN"
+   Code="975" Name="Bulgarian lev"
+   Description="Bulgaria"/>
+  <Item
+   CodeSymbol="BHD"
+   Code="048" Name="Bahraini dinar"
+   Description="Bahrain"/>
+  <Item
+   CodeSymbol="BIF"
+   Code="108" Name="Burundian franc"
+   Description="Burundi"/>
+  <Item
+   CodeSymbol="BMD"
+   Code="060" Name="Bermudian dollar"
+   Description="Bermuda"/>
+  <Item
+   CodeSymbol="BND"
+   Code="096" Name="Brunei dollar"
+   Description="Singapore"/>
+  <Item
+   CodeSymbol="BOB"
+   Code="068" Name="Boliviano"
+   Description="Bolivia"/>
+  <Item
+   CodeSymbol="BRL"
+   Code="986" Name="Brazilian real"
+   Description="Brazil"/>
+  <Item
+   CodeSymbol="BSD"
+   Code="044" Name="Bahamian dollar"
+   Description="Bahamas"/>
+  <Item
+   CodeSymbol="BTN"
+   Code="064" Name="Ngultrum"
+   Description="Bhutan"/>
+  <Item
+   CodeSymbol="BWP"
+   Code="072" Name="Pula"
+   Description="Botswana"/>
+  <Item
+   CodeSymbol="BYR"
+   Code="974" Name="Belarusian ruble"
+   Description="Belarus"/>
+  <Item
+   CodeSymbol="BZD"
+   Code="084" Name="Belize dollar"
+   Description="Belize"/>
+  <Item
+   CodeSymbol="CAD"
+   Code="124" Name="Canadian dollar"
+   Description="Canada"/>
+  <Item
+   CodeSymbol="CDF"
+   Code="976" Name="Franc Congolais"
+   Description="Democratic Republic of Congo"/>
+  <Item
+   CodeSymbol="CHE"
+   Code="947" Name="complementary currency"
+   Description="Switzerland"/>
+  <Item
+   CodeSymbol="CHF"
+   Code="756" Name="Swiss franc"
+   Description="Liechtenstein"/>
+  <Item
+   CodeSymbol="CHW"
+   Code="948" Name="complementary currency"
+   Description="Switzerland"/>
+  <Item
+   CodeSymbol="CLF"
+   Code="990" Name="Unidad de Fomento"
+   Description="Chile"/>
+  <Item
+   CodeSymbol="CLP"
+   Code="152" Name="Chilean peso"
+   Description="Chile"/>
+  <Item
+   CodeSymbol="CNY"
+   Code="156" Name="Chinese Yuan"
+   Description="China"/>
+  <Item
+   CodeSymbol="COP"
+   Code="170" Name="Colombian peso"
+   Description="Colombia"/>
+  <Item
+   CodeSymbol="COU"
+   Code="970" Name="Unidad de Valor Real"
+   Description="Colombia"/>
+  <Item
+   CodeSymbol="CRC"
+   Code="188" Name="Costa Rican colon"
+   Description="Costa Rica"/>
+  <Item
+   CodeSymbol="CUC"
+   Code="931" Name="Cuban convertible peso"
+   Description="Cuba"/>
+  <Item
+   CodeSymbol="CUP"
+   Code="192" Name="Cuban peso"
+   Description="Cuba"/>
+  <Item
+   CodeSymbol="CVE"
+   Code="132" Name="Cape Verde escudo"
+   Description="Cape Verde"/>
+  <Item
+   CodeSymbol="CZK"
+   Code="203" Name="Czech Koruna"
+   Description="Czech Republic"/>
+  <Item
+   CodeSymbol="DJF"
+   Code="262" Name="Djibouti franc"
+   Description="Djibouti"/>
+  <Item
+   CodeSymbol="DKK"
+   Code="208" Name="Danish krone"
+   Description="Greenland"/>
+  <Item
+   CodeSymbol="DOP"
+   Code="214" Name="Dominican peso"
+   Description="Dominican Republic"/>
+  <Item
+   CodeSymbol="DZD"
+   Code="012" Name="Algerian dinar"
+   Description="Algeria"/>
+  <Item
+   CodeSymbol="EEK"
+   Code="233" Name="Kroon"
+   Description="Estonia"/>
+  <Item
+   CodeSymbol="EGP"
+   Code="818" Name="Egyptian pound"
+   Description="Egypt"/>
+  <Item
+   CodeSymbol="ERN"
+   Code="232" Name="Nakfa"
+   Description="Eritrea"/>
+  <Item
+   CodeSymbol="ETB"
+   Code="230" Name="Ethiopian birr"
+   Description="Ethiopia"/>
+  <Item
+   CodeSymbol="EUR"
+   Code="978" Name="euro"
+   Description="16 European Union countries, Andorra, Kosovo, Monaco, Montenegro, San Marino, Vatican"/>
+  <Item
+   CodeSymbol="FJD"
+   Code="242" Name="Fiji dollar"
+   Description="Fiji"/>
+  <Item
+   CodeSymbol="FKP"
+   Code="238" Name="Falkland Islands pound"
+   Description="Falkland Islands"/>
+  <Item
+   CodeSymbol="GBP"
+   Code="826" Name="Pound sterling"
+   Description="United Kingdom, Crown Dependencies (the Isle of Man and the Channel Islands), certain British Overseas Territories (South Georgia and the South Sandwich Islands, British Antarctic Territory and British Indian Ocean Territory)"/>
+  <Item
+   CodeSymbol="GEL"
+   Code="981" Name="Lari"
+   Description="Georgia"/>
+  <Item
+   CodeSymbol="GHS"
+   Code="936" Name="Cedi"
+   Description="Ghana"/>
+  <Item
+   CodeSymbol="GIP"
+   Code="292" Name="Gibraltar pound"
+   Description="Gibraltar"/>
+  <Item
+   CodeSymbol="GMD"
+   Code="270" Name="Dalasi"
+   Description="Gambia"/>
+  <Item
+   CodeSymbol="GNF"
+   Code="324" Name="Guinea franc"
+   Description="Guinea"/>
+  <Item
+   CodeSymbol="GTQ"
+   Code="320" Name="Quetzal"
+   Description="Guatemala"/>
+  <Item
+   CodeSymbol="GYD"
+   Code="328" Name="Guyana dollar"
+   Description="Guyana"/>
+  <Item
+   CodeSymbol="HKD"
+   Code="344" Name="Hong Kong dollar"
+   Description="Special Administrative Region"/>
+  <Item
+   CodeSymbol="HNL"
+   Code="340" Name="Lempira"
+   Description="Honduras"/>
+  <Item
+   CodeSymbol="HRK"
+   Code="191" Name="Croatian kuna"
+   Description="Croatia"/>
+  <Item
+   CodeSymbol="HTG"
+   Code="332" Name="Haiti gourde"
+   Description="Haiti"/>
+  <Item
+   CodeSymbol="HUF"
+   Code="348" Name="Forint"
+   Description="Hungary"/>
+  <Item
+   CodeSymbol="IDR"
+   Code="360" Name="Rupiah"
+   Description="Indonesia"/>
+  <Item
+   CodeSymbol="ILS"
+   Code="376" Name="Israeli new sheqel"
+   Description="Israel"/>
+  <Item
+   CodeSymbol="INR"
+   Code="356" Name="Indian rupee"
+   Description="India"/>
+  <Item
+   CodeSymbol="IQD"
+   Code="368" Name="Iraqi dinar"
+   Description="Iraq"/>
+  <Item
+   CodeSymbol="IRR"
+   Code="364" Name="Iranian rial"
+   Description="Iran"/>
+  <Item
+   CodeSymbol="ISK"
+   Code="352" Name="Iceland krona"
+   Description="Iceland"/>
+  <Item
+   CodeSymbol="JMD"
+   Code="388" Name="Jamaican dollar"
+   Description="Jamaica"/>
+  <Item
+   CodeSymbol="JOD"
+   Code="400" Name="Jordanian dinar"
+   Description="Jordan"/>
+  <Item
+   CodeSymbol="JPY"
+   Code="392" Name="Japanese yen"
+   Description="Japan"/>
+  <Item
+   CodeSymbol="KES"
+   Code="404" Name="Kenyan shilling"
+   Description="Kenya"/>
+  <Item
+   CodeSymbol="KGS"
+   Code="417" Name="Som"
+   Description="Kyrgyzstan"/>
+  <Item
+   CodeSymbol="KHR"
+   Code="116" Name="Riel"
+   Description="Cambodia"/>
+  <Item
+   CodeSymbol="KMF"
+   Code="174" Name="Comoro franc"
+   Description="Comoros"/>
+  <Item
+   CodeSymbol="KPW"
+   Code="408" Name="North Korean won"
+   Description="North Korea"/>
+  <Item
+   CodeSymbol="KRW"
+   Code="410" Name="South Korean won"
+   Description="South Korea"/>
+  <Item
+   CodeSymbol="KWD"
+   Code="414" Name="Kuwaiti dinar"
+   Description="Kuwait"/>
+  <Item
+   CodeSymbol="KYD"
+   Code="136" Name="Cayman Islands dollar"
+   Description="Cayman Islands"/>
+  <Item
+   CodeSymbol="KZT"
+   Code="398" Name="Tenge"
+   Description="Kazakhstan"/>
+  <Item
+   CodeSymbol="LAK"
+   Code="418" Name="Kip"
+   Description="Laos"/>
+  <Item
+   CodeSymbol="LBP"
+   Code="422" Name="Lebanese pound"
+   Description="Lebanon"/>
+  <Item
+   CodeSymbol="LKR"
+   Code="144" Name="Sri Lanka rupee"
+   Description="Sri Lanka"/>
+  <Item
+   CodeSymbol="LRD"
+   Code="430" Name="Liberian dollar"
+   Description="Liberia"/>
+  <Item
+   CodeSymbol="LSL"
+   Code="426" Name="Lesotho loti"
+   Description="Lesotho"/>
+  <Item
+   CodeSymbol="LTL"
+   Code="440" Name="Lithuanian litas"
+   Description="Lithuania"/>
+  <Item
+   CodeSymbol="LVL"
+   Code="428" Name="Latvian lats"
+   Description="Latvia"/>
+  <Item
+   CodeSymbol="LYD"
+   Code="434" Name="Libyan dinar"
+   Description="Libya"/>
+  <Item
+   CodeSymbol="MAD"
+   Code="504" Name="Moroccan dirham"
+   Description="Western Sahara"/>
+  <Item
+   CodeSymbol="MDL"
+   Code="498" Name="Moldovan leu"
+   Description="Moldova"/>
+  <Item
+   CodeSymbol="MGA"
+   Code="969" Name="Malagasy ariary"
+   Description="Madagascar"/>
+  <Item
+   CodeSymbol="MKD"
+   Code="807" Name="Denar"
+   Description="Macedonia"/>
+  <Item
+   CodeSymbol="MMK"
+   Code="104" Name="Kyat"
+   Description="Myanmar"/>
+  <Item
+   CodeSymbol="MNT"
+   Code="496" Name="Tugrik"
+   Description="Mongolia"/>
+  <Item
+   CodeSymbol="MOP"
+   Code="446" Name="Pataca"
+   Description="Special Administrative Region"/>
+  <Item
+   CodeSymbol="MRO"
+   Code="478" Name="Ouguiya"
+   Description="Mauritania"/>
+  <Item
+   CodeSymbol="MUR"
+   Code="480" Name="Mauritius rupee"
+   Description="Mauritius"/>
+  <Item
+   CodeSymbol="MVR"
+   Code="462" Name="Rufiyaa"
+   Description="Maldives"/>
+  <Item
+   CodeSymbol="MWK"
+   Code="454" Name="Kwacha"
+   Description="Malawi"/>
+  <Item
+   CodeSymbol="MXN"
+   Code="484" Name="Mexican peso"
+   Description="Mexico"/>
+  <Item
+   CodeSymbol="MXV"
+   Code="979" Name="Mexican Unidad de Inversion"
+   Description="Mexico"/>
+  <Item
+   CodeSymbol="MYR"
+   Code="458" Name="Malaysian ringgit"
+   Description="Malaysia"/>
+  <Item
+   CodeSymbol="MZN"
+   Code="943" Name="Metical"
+   Description="Mozambique"/>
+  <Item
+   CodeSymbol="NAD"
+   Code="516" Name="Namibian dollar"
+   Description="Namibia"/>
+  <Item
+   CodeSymbol="NGN"
+   Code="566" Name="Naira"
+   Description="Nigeria"/>
+  <Item
+   CodeSymbol="NIO"
+   Code="558" Name="Cordoba oro"
+   Description="Nicaragua"/>
+  <Item
+   CodeSymbol="NOK"
+   Code="578" Name="Norwegian krone"
+   Description="Peter I Island"/>
+  <Item
+   CodeSymbol="NPR"
+   Code="524" Name="Nepalese rupee"
+   Description="Nepal"/>
+  <Item
+   CodeSymbol="NZD"
+   Code="554" Name="New Zealand dollar"
+   Description="Tokelau"/>
+  <Item
+   CodeSymbol="OMR"
+   Code="512" Name="Rial Omani"
+   Description="Oman"/>
+  <Item
+   CodeSymbol="PAB"
+   Code="590" Name="Balboa"
+   Description="Panama"/>
+  <Item
+   CodeSymbol="PEN"
+   Code="604" Name="Nuevo sol"
+   Description="Peru"/>
+  <Item
+   CodeSymbol="PGK"
+   Code="598" Name="Kina"
+   Description="Papua New Guinea"/>
+  <Item
+   CodeSymbol="PHP"
+   Code="608" Name="Philippine peso"
+   Description="Philippines"/>
+  <Item
+   CodeSymbol="PKR"
+   Code="586" Name="Pakistan rupee"
+   Description="Pakistan"/>
+  <Item
+   CodeSymbol="PLN"
+   Code="985" Name="Złoty"
+   Description="Poland"/>
+  <Item
+   CodeSymbol="PYG"
+   Code="600" Name="Guarani"
+   Description="Paraguay"/>
+  <Item
+   CodeSymbol="QAR"
+   Code="634" Name="Qatari rial"
+   Description="Qatar"/>
+  <Item
+   CodeSymbol="RON"
+   Code="946" Name="Romanian new leu"
+   Description="Romania"/>
+  <Item
+   CodeSymbol="RSD"
+   Code="941" Name="Serbian dinar"
+   Description="Serbia"/>
+  <Item
+   CodeSymbol="RUB"
+   Code="643" Name="Russian rouble"
+   Description="South Ossetia"/>
+  <Item
+   CodeSymbol="RWF"
+   Code="646" Name="Rwanda franc"
+   Description="Rwanda"/>
+  <Item
+   CodeSymbol="SAR"
+   Code="682" Name="Saudi riyal"
+   Description="Saudi Arabia"/>
+  <Item
+   CodeSymbol="SBD"
+   Code="090" Name="Solomon Islands dollar"
+   Description="Solomon Islands"/>
+  <Item
+   CodeSymbol="SCR"
+   Code="690" Name="Seychelles rupee"
+   Description="Seychelles"/>
+  <Item
+   CodeSymbol="SDG"
+   Code="938" Name="Sudanese pound"
+   Description="Sudan"/>
+  <Item
+   CodeSymbol="SEK"
+   Code="752" Name="Swedish krona"
+   Description="Sweden"/>
+  <Item
+   CodeSymbol="SGD"
+   Code="702" Name="Singapore dollar"
+   Description="Brunei"/>
+  <Item
+   CodeSymbol="SHP"
+   Code="654" Name="Saint Helena pound"
+   Description="Saint Helena"/>
+  <Item
+   CodeSymbol="SLL"
+   Code="694" Name="Leone"
+   Description="Sierra Leone"/>
+  <Item
+   CodeSymbol="SOS"
+   Code="706" Name="Somali shilling"
+   Description="Somalia"/>
+  <Item
+   CodeSymbol="SRD"
+   Code="968" Name="Surinam dollar"
+   Description="Suriname"/>
+  <Item
+   CodeSymbol="STD"
+   Code="678" Name="Dobra"
+   Description="São Tomé and Príncipe"/>
+  <Item
+   CodeSymbol="SYP"
+   Code="760" Name="Syrian pound"
+   Description="Syria"/>
+  <Item
+   CodeSymbol="SZL"
+   Code="748" Name="Lilangeni"
+   Description="Swaziland"/>
+  <Item
+   CodeSymbol="THB"
+   Code="764" Name="Baht"
+   Description="Thailand"/>
+  <Item
+   CodeSymbol="TJS"
+   Code="972" Name="Somoni"
+   Description="Tajikistan"/>
+  <Item
+   CodeSymbol="TMT"
+   Code="934" Name="Manat"
+   Description="Turkmenistan"/>
+  <Item
+   CodeSymbol="TND"
+   Code="788" Name="Tunisian dinar"
+   Description="Tunisia"/>
+  <Item
+   CodeSymbol="TOP"
+   Code="776" Name="Pa'anga"
+   Description="Tonga"/>
+  <Item
+   CodeSymbol="TRY"
+   Code="949" Name="Turkish lira"
+   Description="Northern Cyprus"/>
+  <Item
+   CodeSymbol="TTD"
+   Code="780" Name="Trinidad and Tobago dollar"
+   Description="Trinidad and Tobago"/>
+  <Item
+   CodeSymbol="TWD"
+   Code="901" Name="New Taiwan dollar"
+   Description="Taiwan and other islands that are under the effective control of the Republic of China (ROC)"/>
+  <Item
+   CodeSymbol="TZS"
+   Code="834" Name="Tanzanian shilling"
+   Description="Tanzania"/>
+  <Item
+   CodeSymbol="UAH"
+   Code="980" Name="Hryvnia"
+   Description="Ukraine"/>
+  <Item
+   CodeSymbol="UGX"
+   Code="800" Name="Uganda shilling"
+   Description="Uganda"/>
+  <Item
+   CodeSymbol="USD"
+   Code="840" Name="US dollar"
+   Description="American Samoa, British Indian Ocean Territory, Ecuador, El Salvador, Guam, Haiti, Marshall Islands, Micronesia, Northern Mariana Islands, Palau, Panama, Puerto Rico, Timor-Leste, Turks and Caicos Islands, United States, Virgin Islands, Bermuda (as well as Bermudian Dollar)"/>
+  <Item
+   CodeSymbol="UYU"
+   Code="858" Name="Peso Uruguayo"
+   Description="Uruguay"/>
+  <Item
+   CodeSymbol="UZS"
+   Code="860" Name="Uzbekistan som"
+   Description="Uzbekistan"/>
+  <Item
+   CodeSymbol="VEF"
+   Code="937" Name="Venezuelan bolívar fuerte"
+   Description="Venezuela"/>
+  <Item
+   CodeSymbol="VND"
+   Code="704" Name="Vietnamese đồng"
+   Description="Vietnam"/>
+  <Item
+   CodeSymbol="VUV"
+   Code="548" Name="Vatu"
+   Description="Vanuatu"/>
+  <Item
+   CodeSymbol="WST"
+   Code="882" Name="Samoan tala"
+   Description="Samoa"/>
+  <Item
+   CodeSymbol="XAF"
+   Code="950" Name="CFA franc BEAC"
+   Description="Gabon"/>
+  <Item
+   CodeSymbol="XAG"
+   Code="961"
+   Name="Silver (one troy ounce)" Description=""/>
+  <Item
+   CodeSymbol="XAU"
+   Code="959"
+   Name="Gold (one troy ounce)"/>
+  <Item
+   CodeSymbol="XCD"
+   Code="951" Name="East Caribbean dollar"
+   Description="Saint Vincent and the Grenadines"/>
+  <Item
+   CodeSymbol="XDR"
+   Code="960"
+   Name="Special Drawing Rights"
+   Description="International Monetary Fund"/>
+  <Item
+   CodeSymbol="XOF"
+   Code="952" Name="CFA Franc BCEAO"
+   Description="Togo"/>
+  <Item
+   CodeSymbol="XPF"
+   Code="953" Name="CFP franc"
+   Description="Wallis and Futuna"/>
+  <Item
+   CodeSymbol="YER"
+   Code="886" Name="Yemeni rial"
+   Description="Yemen"/>
+  <Item
+   CodeSymbol="ZAR"
+   Code="710" Name="South African rand"
+   Description="South Africa"/>
+  <Item
+   CodeSymbol="ZMK"
+   Code="894" Name="Kwacha"
+   Description="Zambia"/>
+  <Item
+   CodeSymbol="ZWL"
+   Code="932" Name="Zimbabwe dollar"
+   Description="Zimbabwe"/>
+</Items>

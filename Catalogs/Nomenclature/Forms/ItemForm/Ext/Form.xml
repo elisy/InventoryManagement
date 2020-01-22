@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="EditPropertyConfiguration" id="36">
+				<Type>CommandBarButton</Type>
+				<SkipOnInput>false</SkipOnInput>
+				<OnlyInAllActions>false</OnlyInAllActions>
+				<CommandName>Form.Command.EditPropertyConfiguration</CommandName>
+				<ExtendedTooltip name="EditPropertyConfigurationExtendedTooltip" id="54"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="AfterWriteAtServer">AfterWriteAtServer</Event>
+		<Event name="NotificationProcessing">NotificationProcessing</Event>
+		<Event name="OnOpen">OnOpen</Event>
+		<Event name="OnCreateAtServer">OnCreateAtServer</Event>
+		<Event name="BeforeWriteAtServer">BeforeWriteAtServer</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="CodeAndDescription" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код и наименование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Code and description</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код и наименование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Code and description</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="CodeAndDescriptionExtendedTooltip" id="55"/>
+			<ChildItems>
+				<InputField name="Description" id="3">
+					<DataPath>Object.Description</DataPath>
+					<Wrap>false</Wrap>
+					<ContextMenu name="DescriptionContextMenu" id="4"/>
+					<ExtendedTooltip name="DescriptionExtendedTooltip" id="56"/>
+					<Events>
+						<Event name="OnChange">DescriptionOnChange</Event>
+					</Events>
+				</InputField>
+				<InputField name="Code" id="1">
+					<DataPath>Object.Code</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Wrap>false</Wrap>
+					<ContextMenu name="CodeContextMenu" id="2"/>
+					<ExtendedTooltip name="CodeExtendedTooltip" id="57"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ArticleUnitGroup" id="44">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа, артикул, единица</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Article/unit group</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа артикул единица</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Article/unit group</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ArticleUnitGroupExtendedTooltip" id="58"/>
+			<ChildItems>
+				<InputField name="Article" id="11">
+					<DataPath>Object.Article</DataPath>
+					<Width>16</Width>
+					<Wrap>false</Wrap>
+					<ContextMenu name="ArticleContextMenu" id="12"/>
+					<ExtendedTooltip name="ArticleExtendedTooltip" id="59"/>
+				</InputField>
+				<InputField name="Unit" id="9">
+					<DataPath>Object.Unit</DataPath>
+					<Width>6</Width>
+					<Wrap>false</Wrap>
+					<ContextMenu name="UnitContextMenu" id="10"/>
+					<ExtendedTooltip name="UnitExtendedTooltip" id="60"/>
+				</InputField>
+				<InputField name="Parent" id="5">
+					<DataPath>Object.Parent</DataPath>
+					<Wrap>false</Wrap>
+					<ContextMenu name="ParentContextMenu" id="6"/>
+					<ExtendedTooltip name="ParentExtendedTooltip" id="61"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="DescriptionLong" id="13">
+			<DataPath>Object.DescriptionLong</DataPath>
+			<Wrap>false</Wrap>
+			<ChoiceListButton>true</ChoiceListButton>
+			<ContextMenu name="DescriptionLongContextMenu" id="14"/>
+			<ExtendedTooltip name="DescriptionLongExtendedTooltip" id="62"/>
+			<Events>
+				<Event name="StartListChoice">DescriptionLongStartListChoice</Event>
+			</Events>
+		</InputField>
+		<InputField name="PriceGroup" id="47">
+			<DataPath>Object.PriceGroup</DataPath>
+			<Wrap>false</Wrap>
+			<ContextMenu name="PriceGroupContextMenu" id="48"/>
+			<ExtendedTooltip name="PriceGroupExtendedTooltip" id="63"/>
+		</InputField>
+		<Pages name="Pages" id="53">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="PagesExtendedTooltip" id="64"/>
+			<ChildItems>
+				<Page name="NomenclatureAccountingGroup" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учет номенклатуры</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Nomenclature accounting</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учет номенклатуры</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Nomenclature accounting</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="NomenclatureAccountingGroupExtendedTooltip" id="65"/>
+					<ChildItems>
+						<UsualGroup name="NomenclatureCategoryAndType" id="43">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид и тип номенклатуры</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Nomenclature category and type</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид и тип номенклатуры</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Nomenclature category and type</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="NomenclatureCategoryAndTypeExtendedTooltip" id="66"/>
+							<ChildItems>
+								<InputField name="Category" id="7">
+									<DataPath>Object.Category</DataPath>
+									<Wrap>false</Wrap>
+									<ContextMenu name="CategoryContextMenu" id="8"/>
+									<ExtendedTooltip name="CategoryExtendedTooltip" id="67"/>
+									<Events>
+										<Event name="OnChange">CategoryOnChange</Event>
+									</Events>
+								</InputField>
+								<LabelField name="NomenclatureType" id="19">
+									<DataPath>Object.Category.Type</DataPath>
+									<TextColor>style:FieldSelectionBackColor</TextColor>
+									<ContextMenu name="NomenclatureTypeContextMenu" id="20"/>
+									<ExtendedTooltip name="NomenclatureTypeExtendedTooltip" id="68"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<LabelField name="EnableCharacteristics" id="39">
+							<DataPath>Object.Category.CharacteristicUse</DataPath>
+							<TextColor>style:FieldSelectionBackColor</TextColor>
+							<ContextMenu name="EnableCharacteristicsContextMenu" id="40"/>
+							<ExtendedTooltip name="EnableCharacteristicsExtendedTooltip" id="69"/>
+						</LabelField>
+						<LabelField name="EnablePackages" id="41">
+							<DataPath>Object.Category.PackageUse</DataPath>
+							<TextColor>style:FieldSelectionBackColor</TextColor>
+							<ContextMenu name="EnablePackagesContextMenu" id="42"/>
+							<ExtendedTooltip name="EnablePackagesExtendedTooltip" id="70"/>
+						</LabelField>
+						<CheckBoxField name="EnableCustomsDeclarations" id="15">
+							<DataPath>Object.EnableCustomsDeclarations</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="EnableCustomsDeclarationsContextMenu" id="16"/>
+							<ExtendedTooltip name="EnableCustomsDeclarationsExtendedTooltip" id="71"/>
+						</CheckBoxField>
+						<CheckBoxField name="EnableSerialNumbers" id="17">
+							<DataPath>Object.EnableSerialNumbers</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="EnableSerialNumbersContextMenu" id="18"/>
+							<ExtendedTooltip name="EnableSerialNumbersExtendedTooltip" id="72"/>
+						</CheckBoxField>
+					</ChildItems>
+				</Page>
+				<Page name="AdditionalPropertiesGroup" id="52">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные реквизиты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional properties</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа дополнительные реквизиты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional properties group</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="AdditionalPropertiesGroupExtendedTooltip" id="73"/>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="AccessGroup" id="50">
+			<DataPath>Object.AccessGroup</DataPath>
+			<Wrap>false</Wrap>
+			<ContextMenu name="AccessGroupContextMenu" id="51"/>
+			<ExtendedTooltip name="AccessGroupExtendedTooltip" id="74"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Object" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Nomenclature</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="EditPropertyConfiguration" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить дополнительные реквизиты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit additional properties</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать состав дополнительных реквизитов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit additional property structure</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ListSettings</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>EditPropertyConfiguration</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>2:4acc1583-ecfd-4231-a389-5fea52c49958</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>InformationRegister.NomenclatureStockTypeSettings.StandardCommand.OpenByValue.Nomenclature</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>Catalog.CustomsDeclarationCodes.StandardCommand.OpenByValue</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

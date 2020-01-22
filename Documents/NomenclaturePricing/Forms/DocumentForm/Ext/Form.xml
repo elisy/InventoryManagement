@@ -1,0 +1,1139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Width>100</Width>
+	<Height>25</Height>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="ChoiceProcessing">ChoiceProcessing</Event>
+		<Event name="BeforeWrite">BeforeWrite</Event>
+		<Event name="OnCreateAtServer">OnCreateAtServer</Event>
+		<Event name="BeforeLoadDataFromSettingsAtServer">OnLoadDataFromSettingsAtServer</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="GroupHeader" id="94">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group header</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group header</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ChildItemsWidth>Equal</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="GroupHeaderExtendedTooltip" id="142"/>
+			<ChildItems>
+				<InputField name="Number" id="92">
+					<DataPath>Object.Number</DataPath>
+					<ContextMenu name="NumberContextMenu" id="93"/>
+					<ExtendedTooltip name="NumberExtendedTooltip" id="143"/>
+				</InputField>
+				<InputField name="Date" id="95">
+					<DataPath>Object.Date</DataPath>
+					<ContextMenu name="DateContextMenu" id="96"/>
+					<ExtendedTooltip name="DateExtendedTooltip" id="144"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="GroupPages" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group pages</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group pages</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="GroupPagesExtendedTooltip" id="145"/>
+			<Events>
+				<Event name="OnCurrentPageChange">GroupPagesOnCurrentPageChange</Event>
+			</Events>
+			<ChildItems>
+				<Page name="GroupPriceCategories" id="103">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Price categories</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Виды цен</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа виды цен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group price categories</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="GroupPriceCategoriesExtendedTooltip" id="146"/>
+					<ChildItems>
+						<CommandBar name="PriceCategoriesCommandBar" id="48">
+							<EnableContentChange>true</EnableContentChange>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Виды цен панель мастера</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Price categories command bar</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Виды цен панель мастера</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Price categories command bar</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalLocation>Right</HorizontalLocation>
+							<ExtendedTooltip name="PriceCategoriesCommandBarExtendedTooltip" id="147"/>
+							<ChildItems>
+								<Button name="CommandPriceCategoriesNext" id="49">
+									<Type>CommandBarButton</Type>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>Form.Command.GoToPricing</CommandName>
+									<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<ExtendedTooltip name="CommandPriceCategoriesNextExtendedTooltip" id="148"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<Table name="SelectedPriceCategories" id="104">
+							<Representation>List</Representation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<SkipOnInput>false</SkipOnInput>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>SelectedPriceCategories</DataPath>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="SelectedPriceCategoriesContextMenu" id="105"/>
+							<AutoCommandBar name="SelectedPriceCategoriesCommandBar" id="106"/>
+							<ExtendedTooltip name="SelectedPriceCategoriesExtendedTooltip" id="149"/>
+							<SearchStringAddition name="SelectedPriceCategoriesSearchString" id="150">
+								<AdditionSource>
+									<Item>SelectedPriceCategories</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="SelectedPriceCategoriesSearchStringContextMenu" id="151"/>
+								<ExtendedTooltip name="SelectedPriceCategoriesSearchStringExtendedTooltip" id="152"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="SelectedPriceCategoriesViewStatus" id="153">
+								<AdditionSource>
+									<Item>SelectedPriceCategories</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="SelectedPriceCategoriesViewStatusContextMenu" id="154"/>
+								<ExtendedTooltip name="SelectedPriceCategoriesViewStatusExtendedTooltip" id="155"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="SelectedPriceCategoriesSearchControl" id="156">
+								<AdditionSource>
+									<Item>SelectedPriceCategories</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="SelectedPriceCategoriesSearchControlContextMenu" id="157"/>
+								<ExtendedTooltip name="SelectedPriceCategoriesSearchControlExtendedTooltip" id="158"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="SelectedPriceCategoriesRef" id="107">
+									<DataPath>SelectedPriceCategories.Ref</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="SelectedPriceCategoriesRefContextMenu" id="108"/>
+									<ExtendedTooltip name="SelectedPriceCategoriesRefExtendedTooltip" id="159"/>
+								</InputField>
+								<InputField name="SelectedPriceCategoriesPricingMode" id="109">
+									<DataPath>SelectedPriceCategories.PricingMode</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="SelectedPriceCategoriesPricingModeContextMenu" id="110"/>
+									<ExtendedTooltip name="SelectedPriceCategoriesPricingModeExtendedTooltip" id="160"/>
+								</InputField>
+								<CheckBoxField name="SelectedPriceCategoriesIsSelected" id="111">
+									<DataPath>SelectedPriceCategories.IsSelected</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="SelectedPriceCategoriesIsSelectedContextMenu" id="112"/>
+									<ExtendedTooltip name="SelectedPriceCategoriesIsSelectedExtendedTooltip" id="161"/>
+									<Events>
+										<Event name="OnChange">SelectedPriceCategoriesIsSelectedOnChange</Event>
+									</Events>
+								</CheckBoxField>
+								<CheckBoxField name="SelectedPriceCategoriesIsInfluencing" id="115">
+									<DataPath>SelectedPriceCategories.IsInfluencing</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="SelectedPriceCategoriesIsInfluencingContextMenu" id="116"/>
+									<ExtendedTooltip name="SelectedPriceCategoriesIsInfluencingExtendedTooltip" id="162"/>
+								</CheckBoxField>
+								<CheckBoxField name="SelectedPriceCategoriesIsDependent" id="113">
+									<DataPath>SelectedPriceCategories.IsDependent</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="SelectedPriceCategoriesIsDependentContextMenu" id="114"/>
+									<ExtendedTooltip name="SelectedPriceCategoriesIsDependentExtendedTooltip" id="163"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+						<LabelField name="SelectedPriceCategoriesInvluencingPricesCategories" id="123">
+							<DataPath>Items.SelectedPriceCategories.CurrentData.InfluencingPrices</DataPath>
+							<ContextMenu name="SelectedPriceCategoriesInvluencingPricesCategoriesContextMenu" id="124"/>
+							<ExtendedTooltip name="SelectedPriceCategoriesInvluencingPricesCategoriesExtendedTooltip" id="164"/>
+						</LabelField>
+						<LabelField name="SelectedPriceCategoriesDependentPriceCategories" id="119">
+							<DataPath>Items.SelectedPriceCategories.CurrentData.DependentPrices</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="SelectedPriceCategoriesDependentPriceCategoriesContextMenu" id="120"/>
+							<ExtendedTooltip name="SelectedPriceCategoriesDependentPriceCategoriesExtendedTooltip" id="165"/>
+						</LabelField>
+					</ChildItems>
+				</Page>
+				<Page name="GroupPricing" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pricing</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Установка цен</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товары</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group pricing</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="GroupPricingExtendedTooltip" id="166"/>
+					<ChildItems>
+						<CommandBar name="CommandBarPricing" id="53">
+							<EnableContentChange>true</EnableContentChange>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Установка цен панель мастера</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar pricing</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Установка цен панель мастера</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Command bar pricing</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalLocation>Right</HorizontalLocation>
+							<ExtendedTooltip name="CommandBarPricingExtendedTooltip" id="167"/>
+							<ChildItems>
+								<Button name="CommandPrevious" id="54">
+									<Type>CommandBarButton</Type>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>Form.Command.GoToPriceCategoryList</CommandName>
+									<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<ExtendedTooltip name="CommandPreviousExtendedTooltip" id="168"/>
+								</Button>
+								<Button name="Calculate" id="60">
+									<Type>CommandBarButton</Type>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>0</CommandName>
+									<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+									<ExtendedTooltip name="CalculateExtendedTooltip" id="169"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+						<Table name="TablePrices" id="38">
+							<Representation>List</Representation>
+							<SkipOnInput>false</SkipOnInput>
+							<MultipleChoice>true</MultipleChoice>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>TablePrices</DataPath>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="TablePricesContextMenu" id="39"/>
+							<AutoCommandBar name="TablePricesCommandBar" id="40">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="TablePricesAdd" id="135">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TablePrices.StandardCommand.Add</CommandName>
+										<ExtendedTooltip name="TablePricesAddExtendedTooltip" id="170"/>
+									</Button>
+									<Popup name="SubmenuChoose" id="128">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Подобрать</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Submenu choose</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Подобрать номенклатуру</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Submenu choose</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="SubmenuChooseExtendedTooltip" id="171"/>
+										<ChildItems>
+											<Button name="TablePricesAddPriceCategory" id="127">
+												<Type>CommandBarButton</Type>
+												<Representation>Text</Representation>
+												<SkipOnInput>false</SkipOnInput>
+												<CommandName>Form.Command.AddPriceGroup</CommandName>
+												<ExtendedTooltip name="TablePricesAddPriceCategoryExtendedTooltip" id="172"/>
+											</Button>
+										</ChildItems>
+									</Popup>
+									<Button name="TablePricesCopy" id="130">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TablePrices.StandardCommand.Copy</CommandName>
+										<ExtendedTooltip name="TablePricesCopyExtendedTooltip" id="173"/>
+									</Button>
+									<Button name="TablePricesEdit" id="131">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TablePrices.StandardCommand.Change</CommandName>
+										<ExtendedTooltip name="TablePricesEditExtendedTooltip" id="174"/>
+									</Button>
+									<Button name="TablePricesDelete" id="132">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TablePrices.StandardCommand.Delete</CommandName>
+										<ExtendedTooltip name="TablePricesDeleteExtendedTooltip" id="175"/>
+									</Button>
+									<Button name="TablePricesMoveUp" id="133">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TablePrices.StandardCommand.MoveUp</CommandName>
+										<ExtendedTooltip name="TablePricesMoveUpExtendedTooltip" id="176"/>
+									</Button>
+									<Button name="TablePricesMoveDown" id="134">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TablePrices.StandardCommand.MoveDown</CommandName>
+										<ExtendedTooltip name="TablePricesMoveDownExtendedTooltip" id="177"/>
+									</Button>
+									<Button name="TablePricesCalculateAutomatically" id="102">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Command.CalculateAutomaticallyFlag</CommandName>
+										<ExtendedTooltip name="TablePricesCalculateAutomaticallyExtendedTooltip" id="178"/>
+									</Button>
+									<Button name="TablePricesLoadLastPrices" id="126">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Command.LoadOldPrices</CommandName>
+										<ExtendedTooltip name="TablePricesLoadLastPricesExtendedTooltip" id="179"/>
+									</Button>
+									<Button name="TablePricesCalculate" id="125">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Command.Recalculate</CommandName>
+										<ExtendedTooltip name="TablePricesCalculateExtendedTooltip" id="180"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="TablePricesExtendedTooltip" id="181"/>
+							<SearchStringAddition name="TablePricesSearchString" id="182">
+								<AdditionSource>
+									<Item>TablePrices</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="TablePricesSearchStringContextMenu" id="183"/>
+								<ExtendedTooltip name="TablePricesSearchStringExtendedTooltip" id="184"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="TablePricesViewStatus" id="185">
+								<AdditionSource>
+									<Item>TablePrices</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="TablePricesViewStatusContextMenu" id="186"/>
+								<ExtendedTooltip name="TablePricesViewStatusExtendedTooltip" id="187"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="TablePricesSearchControl" id="188">
+								<AdditionSource>
+									<Item>TablePrices</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="TablePricesSearchControlContextMenu" id="189"/>
+								<ExtendedTooltip name="TablePricesSearchControlExtendedTooltip" id="190"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="TablePricesNomenclature" id="136">
+									<DataPath>TablePrices.Nomenclature</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<ContextMenu name="TablePricesNomenclatureContextMenu" id="137"/>
+									<ExtendedTooltip name="TablePricesNomenclatureExtendedTooltip" id="191"/>
+									<Events>
+										<Event name="OnChange">TablePricesNomenclatureOnChange</Event>
+									</Events>
+								</InputField>
+								<InputField name="TablePricesCharacteristic" id="138">
+									<DataPath>TablePrices.Characteristic</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Nomenclature</xr:Name>
+											<xr:DataPath xsi:type="xs:string">Items.TablePrices.CurrentData.Nomenclature</xr:DataPath>
+											<xr:ValueChange>DontChange</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="TablePricesCharacteristicContextMenu" id="139"/>
+									<ExtendedTooltip name="TablePricesCharacteristicExtendedTooltip" id="192"/>
+									<Events>
+										<Event name="OnChange">TablePricesCharacteristicOnChange</Event>
+										<Event name="StartChoice">TablePricesCharacteristicStartChoice</Event>
+									</Events>
+								</InputField>
+								<InputField name="TablePricesPackage" id="140">
+									<DataPath>TablePrices.Package</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Nomenclature</xr:Name>
+											<xr:DataPath xsi:type="xs:string">Items.TablePrices.CurrentData.Nomenclature</xr:DataPath>
+											<xr:ValueChange>DontChange</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="TablePricesPackageContextMenu" id="141"/>
+									<ExtendedTooltip name="TablePricesPackageExtendedTooltip" id="193"/>
+									<Events>
+										<Event name="OnChange">TablePricesPackageOnChange</Event>
+										<Event name="StartChoice">TablePricesPackageStartChoice</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="GroupGeneral" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>General</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительно</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительно</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group general</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="GroupGeneralExtendedTooltip" id="194"/>
+					<ChildItems>
+						<InputField name="ResponsibleUser" id="5">
+							<DataPath>Object.ResponsibleUser</DataPath>
+							<Wrap>false</Wrap>
+							<ContextMenu name="ResponsibleUserContextMenu" id="6"/>
+							<ExtendedTooltip name="ResponsibleUserExtendedTooltip" id="195"/>
+						</InputField>
+						<UsualGroup name="GroupComment" id="35">
+							<Title>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Comment</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Комментарий</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Комментарий</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Group comment</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="GroupCommentExtendedTooltip" id="196"/>
+							<ChildItems>
+								<InputField name="Comment" id="36">
+									<DataPath>Object.Comment</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<Wrap>false</Wrap>
+									<ContextMenu name="CommentContextMenu" id="37"/>
+									<ExtendedTooltip name="CommentExtendedTooltip" id="197"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<UsualGroup name="GroupFooter" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Footer</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подвал</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group footer</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="GroupFooterExtendedTooltip" id="198"/>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Object" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentObject.NomenclaturePricing</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Object.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="TablePrices" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица цен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Table prices</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+			<Columns>
+				<Column name="Nomenclature" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Nomenclature</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Nomenclature</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Characteristic" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Characteristic</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.NomenclatureCharacteristics</v8:Type>
+					</Type>
+					<FunctionalOptions>
+						<Item>FunctionalOption.EnableNomenclatureCharacteristics</Item>
+					</FunctionalOptions>
+				</Column>
+				<Column name="Package" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Упаковка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Package</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.NomenclaturePackages</v8:Type>
+					</Type>
+					<FunctionalOptions>
+						<Item>FunctionalOption.EnableNomenclaturePackages</Item>
+					</FunctionalOptions>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="SelectedPricesHaveBeenChanged" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные цены изменены</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Selected prices have been changed</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="SelectedPriceCategories" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные цены</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Selected price categories</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+			<Columns>
+				<Column name="Ref" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Price categories</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Виды цен</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.PriceCategories</v8:Type>
+					</Type>
+				</Column>
+				<Column name="PricingMode" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Способ задания цены</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pricing mode</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.PricingModes</v8:Type>
+					</Type>
+				</Column>
+				<Column name="IsSelected" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбрана</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Selected</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="IsDependent" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Зависит от выбранных цен</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Dependent</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="IsInfluencing" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Влияет на выбранные цены</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Influencing</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="InfluencingPrices" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Влияющие цены</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Influencing prices</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
+					</Type>
+				</Column>
+				<Column name="DependentPrices" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Зависимые цены</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Dependent prices</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Level" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уровень</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Level</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Currency" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Валюта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Currency</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Currencies</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="CurrencyRatesStorageAddress" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес хранилища курсов валют</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Currency rates storage address</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="CatalogPriceCategoriesStorageAddress" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес хранилища справочника видов цен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Catalog price categories storage address</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="FillPriceManually" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Способ задания цены вручную</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill price manually</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.PricingModes</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="EnableNomenclatureCharacteristics" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать характеристики номенклатуры</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable nomenclature characteristics</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="EnableNomenclaturePackages" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать упаковки номенклатуры</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Enable nomenclature packages</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="CalculateAutomatically" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитывать автоматически</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate automatically</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>CalculateAutomatically</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="InfluencingPriceCategoriesArrayStorageAddress" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес хранилища массива влияющих цен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Influencing price categories array storage address</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="GoToPricing" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to pricing &gt;&gt;</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти к установке цен &gt;&gt;</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти к установке цен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to pricing</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>GoToPricing</Action>
+		</Command>
+		<Command name="GoToPriceCategoryList" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>&lt;&lt; Edit price categories</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>&lt;&lt; Изменить состав устанавливаемых видов цен</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти к редактированию списка видов цен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to price category list</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>GoToPriceCategoryList</Action>
+		</Command>
+		<Command name="CalculateAutomaticallyFlag" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate automatically</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитывать автоматически</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитывать цены в строке автоматически при изменении номенклатуры и влияющих цен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate automatically flag</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.CalculatePricesAutomatically</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action>CalculateAutomaticallyFlag</Action>
+		</Command>
+		<Command name="Recalculate" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Calculate prices</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать цены</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать цены</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Recalculate</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.RecalculatePrices</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action>Recalculate</Action>
+		</Command>
+		<Command name="LoadOldPrices" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load old prices</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить действующие цены</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить действующие цены</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Load old prices</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.LoadCurrentPrices</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action>LoadOldPrices</Action>
+		</Command>
+		<Command name="AddPriceGroup" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По ценовой группе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add price group</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить ценовую группу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add price group</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>AddPriceGroup</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>0:84aada14-1a22-46de-b6dc-67e663d3a9f7</Command>
+				<Type>Added</Type>
+				<Attribute>Object.Ref</Attribute>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+		<CommandBar>
+			<Item>
+				<Command>0:84aada14-1a22-46de-b6dc-67e663d3a9f7</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+			<Item>
+				<Command>0</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</CommandBar>
+	</CommandInterface>
+</Form>

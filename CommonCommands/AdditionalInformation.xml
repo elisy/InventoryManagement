@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<CommonCommand uuid="becf53b6-3fbc-4c70-822f-4a70b0434353">
+		<Properties>
+			<Name>AdditionalInformation</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional information</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные сведения</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Group>FormCommandBarImportant</Group>
+			<Representation>Picture</Representation>
+			<ToolTip/>
+			<Picture>
+				<xr:Ref>CommonPicture.AdditionalInformation</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:TransparentPixel x="1" y="8"/>
+			</Picture>
+			<Shortcut/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CommandParameterType>
+				<v8:Type>cfg:CatalogRef.Nomenclature</v8:Type>
+				<v8:Type>cfg:CatalogRef.Files</v8:Type>
+				<v8:Type>cfg:CatalogRef.NomenclatureCharacteristics</v8:Type>
+				<v8:Type>cfg:CatalogRef.Partners</v8:Type>
+				<v8:Type>cfg:CatalogRef.CustomerTransactions</v8:Type>
+				<v8:Type>cfg:CatalogRef.PartnerContactPersons</v8:Type>
+				<v8:Type>cfg:CatalogRef.Individuals</v8:Type>
+				<v8:TypeId>27d1ce20-ad25-4eb1-9420-a05218268697</v8:TypeId>
+				<v8:TypeId>90096094-790a-4546-a69b-66dea9e4aacf</v8:TypeId>
+				<v8:TypeId>dbdba9ef-adc0-4240-8330-4aaf831b4c73</v8:TypeId>
+				<v8:TypeId>dc7d9ba1-1023-46c9-9d42-f23481b21304</v8:TypeId>
+			</CommandParameterType>
+			<ParameterUseMode>Single</ParameterUseMode>
+			<ModifiesData>false</ModifiesData>
+		</Properties>
+	</CommonCommand>
+</MetaDataObject>

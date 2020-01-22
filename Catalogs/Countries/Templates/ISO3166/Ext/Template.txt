@@ -1,0 +1,1724 @@
+﻿<Items description="Countries" columns="Code,ShortName,Alpha2,Alpha3,FullName">
+  <Item
+   ShortName="Afghanistan" FullName="Afghanistan"
+   Alpha2="AF"
+   Alpha3="AFG"
+   Code="004"
+
+/>
+  <Item
+  ShortName="Åland Islands" FullName="Åland Islands"
+  Alpha2="AX"
+  Alpha3="ALA"
+  Code="248"
+
+  />
+  <Item
+   ShortName="Albania" FullName="Albania"
+   Alpha2="AL"
+   Alpha3="ALB"
+   Code="008"
+
+/>
+  <Item
+   ShortName="Algeria" FullName="Algeria"
+   Alpha2="DZ"
+   Alpha3="DZA"
+   Code="012"
+
+/>
+  <Item
+   ShortName="American Samoa" FullName="American Samoa"
+   Alpha2="AS"
+   Alpha3="ASM"
+   Code="016"
+
+/>
+  <Item
+   ShortName="Andorra" FullName="Andorra"
+   Alpha2="AD"
+   Alpha3="AND"
+   Code="020"
+
+/>
+  <Item
+   ShortName="Angola" FullName="Angola"
+   Alpha2="AO"
+   Alpha3="AGO"
+   Code="024"
+
+/>
+  <Item
+   ShortName="Anguilla" FullName="Anguilla"
+   Alpha2="AI"
+   Alpha3="AIA"
+   Code="660"
+
+/>
+  <Item
+ ShortName="Antarctica" FullName="Antarctica"
+ Alpha2="AQ"
+ Alpha3="ATA"
+ Code="010"
+
+/>
+  <Item
+   ShortName="Antigua and Barbuda" FullName="Antigua and Barbuda"
+   Alpha2="AG"
+   Alpha3="ATG"
+   Code="028"
+
+/>
+  <Item
+   ShortName="Argentina" FullName="Argentina"
+   Alpha2="AR"
+   Alpha3="ARG"
+   Code="032"
+
+/>
+  <Item
+   ShortName="Armenia" FullName="Armenia"
+   Alpha2="AM"
+   Alpha3="ARM"
+   Code="051"
+
+/>
+  <Item
+   ShortName="Aruba" FullName="Aruba"
+   Alpha2="AW"
+   Alpha3="ABW"
+   Code="533"
+
+/>
+  <Item
+   ShortName="Australia" FullName="Australia"
+   Alpha2="AU"
+   Alpha3="AUS"
+   Code="036"
+
+/>
+  <Item
+   ShortName="Austria" FullName="Austria"
+   Alpha2="AT"
+   Alpha3="AUT"
+   Code="040"
+
+/>
+  <Item
+   ShortName="Azerbaijan" FullName="Azerbaijan"
+   Alpha2="AZ"
+   Alpha3="AZE"
+   Code="031"
+
+/>
+  <Item
+   ShortName="The Bahamas" FullName="Bahamas"
+   Alpha2="BS"
+   Alpha3="BHS"
+   Code="044"
+
+/>
+  <Item
+   ShortName="Bahrain" FullName="Bahrain"
+   Alpha2="BH"
+   Alpha3="BHR"
+   Code="048"
+
+/>
+  <Item
+   ShortName="Bangladesh" FullName="Bangladesh"
+   Alpha2="BD"
+   Alpha3="BGD"
+   Code="050"
+
+/>
+  <Item
+   ShortName="Barbados" FullName="Barbados"
+   Alpha2="BB"
+   Alpha3="BRB"
+   Code="052"
+
+/>
+  <Item
+   ShortName="Belarus" FullName="Belarus"
+   Alpha2="BY"
+   Alpha3="BLR"
+   Code="112"
+
+/>
+  <Item
+   ShortName="Belgium" FullName="Belgium"
+   Alpha2="BE"
+   Alpha3="BEL"
+   Code="056"
+
+/>
+  <Item
+   ShortName="Belize" FullName="Belize"
+   Alpha2="BZ"
+   Alpha3="BLZ"
+   Code="084"
+
+/>
+  <Item
+   ShortName="Benin" FullName="Benin"
+   Alpha2="BJ"
+   Alpha3="BEN"
+   Code="204"
+
+/>
+  <Item
+   ShortName="Bermuda" FullName="Bermuda"
+   Alpha2="BM"
+   Alpha3="BMU"
+   Code="060"
+
+/>
+  <Item
+   ShortName="Bhutan" FullName="Bhutan"
+   Alpha2="BT"
+   Alpha3="BTN"
+   Code="064"
+
+/>
+  <Item
+   ShortName="Bolivia" FullName="Bolivia, Plurinational State of"
+   Alpha2="BO"
+   Alpha3="BOL"
+   Code="068"
+
+/>
+  <Item
+   ShortName="Bosnia and Herzegovina" FullName="Bosnia and Herzegovina"
+   Alpha2="BA"
+   Alpha3="BIH"
+   Code="070"
+
+/>
+  <Item
+   ShortName="Botswana" FullName="Botswana"
+   Alpha2="BW"
+   Alpha3="BWA"
+   Code="072"
+
+/>
+  <Item
+   ShortName="Bouvet Island" FullName="Bouvet Island"
+   Alpha2="BV"
+   Alpha3="BVT"
+   Code="074"
+
+/>
+  <Item
+   ShortName="Brazil" FullName="Brazil"
+   Alpha2="BR"
+   Alpha3="BRA"
+   Code="076"
+
+/>
+  <Item
+   ShortName="British Indian Ocean Territory" FullName="British Indian Ocean Territory"
+   Alpha2="IO"
+   Alpha3="IOT"
+   Code="086"
+
+/>
+  <Item
+   ShortName="Brunei" FullName="Brunei Darussalam"
+   Alpha2="BN"
+   Alpha3="BRN"
+   Code="096"
+
+/>
+  <Item
+   ShortName="Bulgaria" FullName="Bulgaria"
+   Alpha2="BG"
+   Alpha3="BGR"
+   Code="100"
+
+/>
+  <Item
+   ShortName="Burkina Faso" FullName="Burkina Faso"
+   Alpha2="BF"
+   Alpha3="BFA"
+   Code="854"
+
+/>
+  <Item
+   ShortName="Burundi" FullName="Burundi"
+   Alpha2="BI"
+   Alpha3="BDI"
+   Code="108"
+
+/>
+  <Item
+   ShortName="Cambodia" FullName="Cambodia"
+   Alpha2="KH"
+   Alpha3="KHM"
+   Code="116"
+
+/>
+  <Item
+   ShortName="Cameroon" FullName="Cameroon"
+   Alpha2="CM"
+   Alpha3="CMR"
+   Code="120"
+
+/>
+  <Item
+   ShortName="Canada" FullName="Canada"
+   Alpha2="CA"
+   Alpha3="CAN"
+   Code="124"
+
+/>
+  <Item
+   ShortName="Cape Verde" FullName="Cape Verde"
+   Alpha2="CV"
+   Alpha3="CPV"
+   Code="132"
+
+/>
+  <Item
+   ShortName="Cayman Islands" FullName="Cayman Islands"
+   Alpha2="KY"
+   Alpha3="CYM"
+   Code="136"
+
+/>
+  <Item
+   ShortName="Central African Republic" FullName="Central African Republic"
+   Alpha2="CF"
+   Alpha3="CAF"
+   Code="140"
+
+/>
+  <Item
+   ShortName="Chad" FullName="Chad"
+   Alpha2="TD"
+   Alpha3="TCD"
+   Code="148"
+
+/>
+  <Item
+   ShortName="Chile" FullName="Chile"
+   Alpha2="CL"
+   Alpha3="CHL"
+   Code="152"
+
+/>
+  <Item
+   ShortName="China" FullName="People's Republic of China"
+   Alpha2="CN"
+   Alpha3="CHN"
+   Code="156"
+
+/>
+  <Item
+   ShortName="Christmas Island" FullName="Christmas Island"
+   Alpha2="CX"
+   Alpha3="CXR"
+   Code="162"
+
+/>
+  <Item
+   ShortName="Cocos (Keeling) Islands" FullName="Cocos (Keeling) Islands"
+   Alpha2="CC"
+   Alpha3="CCK"
+   Code="166"
+
+/>
+  <Item
+   ShortName="Colombia" FullName="Colombia"
+   Alpha2="CO"
+   Alpha3="COL"
+   Code="170"
+
+/>
+  <Item
+   ShortName="Comoros" FullName="Comoros"
+   Alpha2="KM"
+   Alpha3="COM"
+   Code="174"
+
+/>
+  <Item
+   ShortName="Congo" FullName="Republic of the Congo"
+   Alpha2="CG"
+   Alpha3="COG"
+   Code="178"
+
+/>
+  <Item
+   ShortName="Congo, the Democratic Republic of the" FullName="Democratic Republic of the Congo"
+   Alpha2="CD"
+   Alpha3="COD"
+   Code="180"
+
+/>
+  <Item
+   ShortName="Cook Islands" FullName="Cook Islands"
+   Alpha2="CK"
+   Alpha3="COK"
+   Code="184"
+
+/>
+  <Item
+   ShortName="Costa Rica" FullName="Costa Rica"
+   Alpha2="CR"
+   Alpha3="CRI"
+   Code="188"
+
+/>
+  <Item
+  ShortName="Côte d'Ivoire" FullName="Côte d'Ivoire"
+  Alpha2="CI"
+  Alpha3="CIV"
+  Code="384"
+
+  />
+  <Item
+   ShortName="Croatia" FullName="Croatia"
+   Alpha2="HR"
+   Alpha3="HRV"
+   Code="191"
+
+/>
+  <Item
+   ShortName="Cuba" FullName="Cuba"
+   Alpha2="CU"
+   Alpha3="CUB"
+   Code="192"
+
+/>
+  <Item
+   ShortName="Cyprus" FullName="Cyprus"
+   Alpha2="CY"
+   Alpha3="CYP"
+   Code="196"
+
+/>
+  <Item
+   ShortName="Czech Republic" FullName="Czech Republic"
+   Alpha2="CZ"
+   Alpha3="CZE"
+   Code="203"
+
+/>
+  <Item
+   ShortName="Denmark" FullName="Denmark"
+   Alpha2="DK"
+   Alpha3="DNK"
+   Code="208"
+
+/>
+  <Item
+   ShortName="Djibouti" FullName="Djibouti"
+   Alpha2="DJ"
+   Alpha3="DJI"
+   Code="262"
+
+/>
+  <Item
+   ShortName="Dominica" FullName="Dominica"
+   Alpha2="DM"
+   Alpha3="DMA"
+   Code="212"
+
+/>
+  <Item
+   ShortName="Dominican Republic" FullName="Dominican Republic"
+   Alpha2="DO"
+   Alpha3="DOM"
+   Code="214"
+
+/>
+  <Item
+   ShortName="Ecuador" FullName="Ecuador"
+   Alpha2="EC"
+   Alpha3="ECU"
+   Code="218"
+
+/>
+  <Item
+   ShortName="Egypt" FullName="Egypt"
+   Alpha2="EG"
+   Alpha3="EGY"
+   Code="818"
+
+/>
+  <Item
+   ShortName="El Salvador" FullName="El Salvador"
+   Alpha2="SV"
+   Alpha3="SLV"
+   Code="222"
+
+/>
+  <Item
+   ShortName="Equatorial Guinea" FullName="Equatorial Guinea"
+   Alpha2="GQ"
+   Alpha3="GNQ"
+   Code="226"
+
+/>
+  <Item
+   ShortName="Eritrea" FullName="Eritrea"
+   Alpha2="ER"
+   Alpha3="ERI"
+   Code="232"
+
+/>
+  <Item
+   ShortName="Estonia" FullName="Estonia"
+   Alpha2="EE"
+   Alpha3="EST"
+   Code="233"
+
+/>
+  <Item
+   ShortName="Ethiopia" FullName="Ethiopia"
+   Alpha2="ET"
+   Alpha3="ETH"
+   Code="231"
+
+/>
+  <Item
+   ShortName="Falkland Islands" FullName="Falkland Islands (Malvinas)"
+   Alpha2="FK"
+   Alpha3="FLK"
+   Code="238"
+
+/>
+  <Item
+   ShortName="Faroe Islands" FullName="Faroe Islands"
+   Alpha2="FO"
+   Alpha3="FRO"
+   Code="234"
+
+/>
+  <Item
+   ShortName="Fiji" FullName="Fiji"
+   Alpha2="FJ"
+   Alpha3="FJI"
+   Code="242"
+
+/>
+  <Item
+   ShortName="Finland" FullName="Finland"
+   Alpha2="FI"
+   Alpha3="FIN"
+   Code="246"
+
+/>
+  <Item
+   ShortName="France" FullName="France"
+   Alpha2="FR"
+   Alpha3="FRA"
+   Code="250"
+
+/>
+  <Item
+   ShortName="French Guiana" FullName="French Guiana"
+   Alpha2="GF"
+   Alpha3="GUF"
+   Code="254"
+
+/>
+  <Item
+   ShortName="French Polynesia" FullName="French Polynesia"
+   Alpha2="PF"
+   Alpha3="PYF"
+   Code="258"
+
+/>
+  <Item
+   ShortName="French Southern Territories" FullName="French Southern and Antarctic Lands"
+   Alpha2="TF"
+   Alpha3="ATF"
+   Code="260"
+
+/>
+  <Item
+   ShortName="Gabon" FullName="Gabon"
+   Alpha2="GA"
+   Alpha3="GAB"
+   Code="266"
+
+/>
+  <Item
+   ShortName="Gambia" FullName="The Gambia"
+   Alpha2="GM"
+   Alpha3="GMB"
+   Code="270"
+
+/>
+  <Item
+   ShortName="Georgia" FullName="Georgia (country)"
+   Alpha2="GE"
+   Alpha3="GEO"
+   Code="268"
+
+/>
+  <Item
+   ShortName="Germany" FullName="Germany"
+   Alpha2="DE"
+   Alpha3="DEU"
+   Code="276"
+
+/>
+  <Item
+   ShortName="Ghana" FullName="Ghana"
+   Alpha2="GH"
+   Alpha3="GHA"
+   Code="288"
+
+/>
+  <Item
+   ShortName="Gibraltar" FullName="Gibraltar"
+   Alpha2="GI"
+   Alpha3="GIB"
+   Code="292"
+
+/>
+  <Item
+   ShortName="Greece" FullName="Greece"
+   Alpha2="GR"
+   Alpha3="GRC"
+   Code="300"
+
+/>
+  <Item
+   ShortName="Greenland" FullName="Greenland"
+   Alpha2="GL"
+   Alpha3="GRL"
+   Code="304"
+
+/>
+  <Item
+   ShortName="Grenada" FullName="Grenada"
+   Alpha2="GD"
+   Alpha3="GRD"
+   Code="308"
+
+/>
+  <Item
+   ShortName="Guadeloupe" FullName="Guadeloupe"
+   Alpha2="GP"
+   Alpha3="GLP"
+   Code="312"
+
+/>
+  <Item
+   ShortName="Guam" FullName="Guam"
+   Alpha2="GU"
+   Alpha3="GUM"
+   Code="316"
+
+/>
+  <Item
+   ShortName="Guatemala" FullName="Guatemala"
+   Alpha2="GT"
+   Alpha3="GTM"
+   Code="320"
+
+/>
+  <Item
+   ShortName="Guernsey" FullName="Guernsey"
+   Alpha2="GG"
+   Alpha3="GGY"
+   Code="831"
+
+/>
+  <Item
+   ShortName="Guinea" FullName="Guinea"
+   Alpha2="GN"
+   Alpha3="GIN"
+   Code="324"
+
+/>
+  <Item
+   ShortName="Guinea-Bissau" FullName="Guinea-Bissau"
+   Alpha2="GW"
+   Alpha3="GNB"
+   Code="624"
+
+/>
+  <Item
+   ShortName="Guyana" FullName="Guyana"
+   Alpha2="GY"
+   Alpha3="GUY"
+   Code="328"
+
+/>
+  <Item
+   ShortName="Haiti" FullName="Haiti"
+   Alpha2="HT"
+   Alpha3="HTI"
+   Code="332"
+
+/>
+  <Item
+   ShortName="Heard Island and McDonald Islands" FullName="Heard Island and McDonald Islands"
+   Alpha2="HM"
+   Alpha3="HMD"
+   Code="334"
+
+/>
+  <Item
+   ShortName="Vatican City" FullName="Holy See (Vatican City State)"
+   Alpha2="VA"
+   Alpha3="VAT"
+   Code="336"
+
+/>
+  <Item
+   ShortName="Honduras" FullName="Honduras"
+   Alpha2="HN"
+   Alpha3="HND"
+   Code="340"
+
+/>
+  <Item
+   ShortName="Hong Kong" FullName="Hong Kong"
+   Alpha2="HK"
+   Alpha3="HKG"
+   Code="344"
+
+/>
+  <Item
+   ShortName="Hungary" FullName="Hungary"
+   Alpha2="HU"
+   Alpha3="HUN"
+   Code="348"
+
+/>
+  <Item
+   ShortName="Iceland" FullName="Iceland"
+   Alpha2="IS"
+   Alpha3="ISL"
+   Code="352"
+
+/>
+  <Item
+   ShortName="India" FullName="India"
+   Alpha2="IN"
+   Alpha3="IND"
+   Code="356"
+
+/>
+  <Item
+   ShortName="Indonesia" FullName="Indonesia"
+   Alpha2="ID"
+   Alpha3="IDN"
+   Code="360"
+
+/>
+  <Item
+   ShortName="Iran" FullName="Iran, Islamic Republic of"
+   Alpha2="IR"
+   Alpha3="IRN"
+   Code="364"
+
+/>
+  <Item
+   ShortName="Iraq" FullName="Iraq"
+   Alpha2="IQ"
+   Alpha3="IRQ"
+   Code="368"
+
+/>
+  <Item
+   ShortName="Ireland" FullName="Republic of Ireland"
+   Alpha2="IE"
+   Alpha3="IRL"
+   Code="372"
+
+/>
+  <Item
+   ShortName="Isle of Man" FullName="Isle of Man"
+   Alpha2="IM"
+   Alpha3="IMN"
+   Code="833"
+
+/>
+  <Item
+   ShortName="Israel" FullName="Israel"
+   Alpha2="IL"
+   Alpha3="ISR"
+   Code="376"
+
+/>
+  <Item
+   ShortName="Italy" FullName="Italy"
+   Alpha2="IT"
+   Alpha3="ITA"
+   Code="380"
+
+/>
+  <Item
+   ShortName="Jamaica" FullName="Jamaica"
+   Alpha2="JM"
+   Alpha3="JAM"
+   Code="388"
+
+/>
+  <Item
+   ShortName="Japan" FullName="Japan"
+   Alpha2="JP"
+   Alpha3="JPN"
+   Code="392"
+
+/>
+  <Item
+   ShortName="Jersey" FullName="Jersey"
+   Alpha2="JE"
+   Alpha3="JEY"
+   Code="832"
+
+/>
+  <Item
+   ShortName="Jordan" FullName="Jordan"
+   Alpha2="JO"
+   Alpha3="JOR"
+   Code="400"
+
+/>
+  <Item
+   ShortName="Kazakhstan" FullName="Kazakhstan"
+   Alpha2="KZ"
+   Alpha3="KAZ"
+   Code="398"
+
+/>
+  <Item
+   ShortName="Kenya" FullName="Kenya"
+   Alpha2="KE"
+   Alpha3="KEN"
+   Code="404"
+
+/>
+  <Item
+   ShortName="Kiribati" FullName="Kiribati"
+   Alpha2="KI"
+   Alpha3="KIR"
+   Code="296"
+
+/>
+  <Item
+   ShortName="North Korea" FullName="Korea, Democratic People's Republic of"
+   Alpha2="KP"
+   Alpha3="PRK"
+   Code="408"
+
+/>
+  <Item
+   ShortName="South Korea" FullName="Korea, Republic of"
+   Alpha2="KR"
+   Alpha3="KOR"
+   Code="410"
+
+/>
+  <Item
+   ShortName="Kuwait" FullName="Kuwait"
+   Alpha2="KW"
+   Alpha3="KWT"
+   Code="414"
+
+/>
+  <Item
+   ShortName="Kyrgyzstan" FullName="Kyrgyzstan"
+   Alpha2="KG"
+   Alpha3="KGZ"
+   Code="417"
+
+/>
+  <Item
+   ShortName="Laos" FullName="Lao People's Democratic Republic"
+   Alpha2="LA"
+   Alpha3="LAO"
+   Code="418"
+
+/>
+  <Item
+   ShortName="Latvia" FullName="Latvia"
+   Alpha2="LV"
+   Alpha3="LVA"
+   Code="428"
+
+/>
+  <Item
+   ShortName="Lebanon" FullName="Lebanon"
+   Alpha2="LB"
+   Alpha3="LBN"
+   Code="422"
+
+/>
+  <Item
+   ShortName="Lesotho" FullName="Lesotho"
+   Alpha2="LS"
+   Alpha3="LSO"
+   Code="426"
+
+/>
+  <Item
+   ShortName="Liberia" FullName="Liberia"
+   Alpha2="LR"
+   Alpha3="LBR"
+   Code="430"
+
+/>
+  <Item
+   ShortName="Libya" FullName="Libyan Arab Jamahiriya"
+   Alpha2="LY"
+   Alpha3="LBY"
+   Code="434"
+
+/>
+  <Item
+   ShortName="Liechtenstein" FullName="Liechtenstein"
+   Alpha2="LI"
+   Alpha3="LIE"
+   Code="438"
+
+/>
+  <Item
+   ShortName="Lithuania" FullName="Lithuania"
+   Alpha2="LT"
+   Alpha3="LTU"
+   Code="440"
+
+/>
+  <Item
+   ShortName="Luxembourg" FullName="Luxembourg"
+   Alpha2="LU"
+   Alpha3="LUX"
+   Code="442"
+
+/>
+  <Item
+   ShortName="Macau" FullName="Macao"
+   Alpha2="MO"
+   Alpha3="MAC"
+   Code="446"
+
+/>
+  <Item
+   ShortName="Republic of Macedonia" FullName="Macedonia, the former Yugoslav Republic of"
+   Alpha2="MK"
+   Alpha3="MKD"
+   Code="807"
+
+/>
+  <Item
+   ShortName="Madagascar" FullName="Madagascar"
+   Alpha2="MG"
+   Alpha3="MDG"
+   Code="450"
+
+/>
+  <Item
+   ShortName="Malawi" FullName="Malawi"
+   Alpha2="MW"
+   Alpha3="MWI"
+   Code="454"
+
+/>
+  <Item
+   ShortName="Malaysia" FullName="Malaysia"
+   Alpha2="MY"
+   Alpha3="MYS"
+   Code="458"
+
+/>
+  <Item
+   ShortName="Maldives" FullName="Maldives"
+   Alpha2="MV"
+   Alpha3="MDV"
+   Code="462"
+
+/>
+  <Item
+   ShortName="Mali" FullName="Mali"
+   Alpha2="ML"
+   Alpha3="MLI"
+   Code="466"
+
+/>
+  <Item
+   ShortName="Malta" FullName="Malta"
+   Alpha2="MT"
+   Alpha3="MLT"
+   Code="470"
+
+/>
+  <Item
+   ShortName="Marshall Islands" FullName="Marshall Islands"
+   Alpha2="MH"
+   Alpha3="MHL"
+   Code="584"
+
+/>
+  <Item
+   ShortName="Martinique" FullName="Martinique"
+   Alpha2="MQ"
+   Alpha3="MTQ"
+   Code="474"
+
+/>
+  <Item
+   ShortName="Mauritania" FullName="Mauritania"
+   Alpha2="MR"
+   Alpha3="MRT"
+   Code="478"
+
+/>
+  <Item
+   ShortName="Mauritius" FullName="Mauritius"
+   Alpha2="MU"
+   Alpha3="MUS"
+   Code="480"
+
+/>
+  <Item
+   ShortName="Mayotte" FullName="Mayotte"
+   Alpha2="YT"
+   Alpha3="MYT"
+   Code="175"
+
+/>
+  <Item
+   ShortName="Mexico" FullName="Mexico"
+   Alpha2="MX"
+   Alpha3="MEX"
+   Code="484"
+
+/>
+  <Item
+   ShortName="Micronesia, Federated States of" FullName="Federated States of Micronesia"
+   Alpha2="FM"
+   Alpha3="FSM"
+   Code="583"
+
+/>
+  <Item
+   ShortName="Moldova" FullName="Moldova, Republic of"
+   Alpha2="MD"
+   Alpha3="MDA"
+   Code="498"
+
+/>
+  <Item
+   ShortName="Monaco" FullName="Monaco"
+   Alpha2="MC"
+   Alpha3="MCO"
+   Code="492"
+
+/>
+  <Item
+   ShortName="Mongolia" FullName="Mongolia"
+   Alpha2="MN"
+   Alpha3="MNG"
+   Code="496"
+
+/>
+  <Item
+   ShortName="Montenegro" FullName="Montenegro"
+   Alpha2="ME"
+   Alpha3="MNE"
+   Code="499"
+
+/>
+  <Item
+   ShortName="Montserrat" FullName="Montserrat"
+   Alpha2="MS"
+   Alpha3="MSR"
+   Code="500"
+
+/>
+  <Item
+   ShortName="Morocco" FullName="Morocco"
+   Alpha2="MA"
+   Alpha3="MAR"
+   Code="504"
+
+/>
+  <Item
+   ShortName="Mozambique" FullName="Mozambique"
+   Alpha2="MZ"
+   Alpha3="MOZ"
+   Code="508"
+
+/>
+  <Item
+   ShortName="Myanmar" FullName="Myanmar"
+   Alpha2="MM"
+   Alpha3="MMR"
+   Code="104"
+
+/>
+  <Item
+   ShortName="Namibia" FullName="Namibia"
+   Alpha2="NA"
+   Alpha3="NAM"
+   Code="516"
+
+/>
+  <Item
+   ShortName="Nauru" FullName="Nauru"
+   Alpha2="NR"
+   Alpha3="NRU"
+   Code="520"
+
+/>
+  <Item
+   ShortName="Nepal" FullName="Nepal"
+   Alpha2="NP"
+   Alpha3="NPL"
+   Code="524"
+
+/>
+  <Item
+   ShortName="Netherlands" FullName="Netherlands"
+   Alpha2="NL"
+   Alpha3="NLD"
+   Code="528"
+
+/>
+  <Item
+   ShortName="Netherlands Antilles" FullName="Netherlands Antilles"
+   Alpha2="AN"
+   Alpha3="ANT"
+   Code="530"
+
+/>
+  <Item
+   ShortName="New Caledonia" FullName="New Caledonia"
+   Alpha2="NC"
+   Alpha3="NCL"
+   Code="540"
+
+/>
+  <Item
+   ShortName="New Zealand" FullName="New Zealand"
+   Alpha2="NZ"
+   Alpha3="NZL"
+   Code="554"
+
+/>
+  <Item
+   ShortName="Nicaragua" FullName="Nicaragua"
+   Alpha2="NI"
+   Alpha3="NIC"
+   Code="558"
+
+/>
+  <Item
+   ShortName="Niger" FullName="Niger"
+   Alpha2="NE"
+   Alpha3="NER"
+   Code="562"
+
+/>
+  <Item
+   ShortName="Nigeria" FullName="Nigeria"
+   Alpha2="NG"
+   Alpha3="NGA"
+   Code="566"
+
+/>
+  <Item
+   ShortName="Niue" FullName="Niue"
+   Alpha2="NU"
+   Alpha3="NIU"
+   Code="570"
+
+/>
+  <Item
+   ShortName="Norfolk Island" FullName="Norfolk Island"
+   Alpha2="NF"
+   Alpha3="NFK"
+   Code="574"
+
+/>
+  <Item
+   ShortName="Northern Mariana Islands" FullName="Northern Mariana Islands"
+   Alpha2="MP"
+   Alpha3="MNP"
+   Code="580"
+
+/>
+  <Item
+   ShortName="Norway" FullName="Norway"
+   Alpha2="NO"
+   Alpha3="NOR"
+   Code="578"
+
+/>
+  <Item
+   ShortName="Oman" FullName="Oman"
+   Alpha2="OM"
+   Alpha3="OMN"
+   Code="512"
+
+/>
+  <Item
+   ShortName="Pakistan" FullName="Pakistan"
+   Alpha2="PK"
+   Alpha3="PAK"
+   Code="586"
+
+/>
+  <Item
+   ShortName="Palau" FullName="Palau"
+   Alpha2="PW"
+   Alpha3="PLW"
+   Code="585"
+
+/>
+  <Item
+   ShortName="Palestinian territories" FullName="Palestinian Territory, Occupied"
+   Alpha2="PS"
+   Alpha3="PSE"
+   Code="275"
+
+/>
+  <Item
+   ShortName="Panama" FullName="Panama"
+   Alpha2="PA"
+   Alpha3="PAN"
+   Code="591"
+
+/>
+  <Item
+   ShortName="Papua New Guinea" FullName="Papua New Guinea"
+   Alpha2="PG"
+   Alpha3="PNG"
+   Code="598"
+
+/>
+  <Item
+   ShortName="Paraguay" FullName="Paraguay"
+   Alpha2="PY"
+   Alpha3="PRY"
+   Code="600"
+
+/>
+  <Item
+   ShortName="Peru" FullName="Peru"
+   Alpha2="PE"
+   Alpha3="PER"
+   Code="604"
+
+/>
+  <Item
+   ShortName="Philippines" FullName="Philippines"
+   Alpha2="PH"
+   Alpha3="PHL"
+   Code="608"
+
+/>
+  <Item
+   ShortName="Pitcairn" FullName="Pitcairn Islands"
+   Alpha2="PN"
+   Alpha3="PCN"
+   Code="612"
+
+/>
+  <Item
+   ShortName="Poland" FullName="Poland"
+   Alpha2="PL"
+   Alpha3="POL"
+   Code="616"
+
+/>
+  <Item
+   ShortName="Portugal" FullName="Portugal"
+   Alpha2="PT"
+   Alpha3="PRT"
+   Code="620"
+
+/>
+  <Item
+   ShortName="Puerto Rico" FullName="Puerto Rico"
+   Alpha2="PR"
+   Alpha3="PRI"
+   Code="630"
+
+/>
+  <Item
+   ShortName="Qatar" FullName="Qatar"
+   Alpha2="QA"
+   Alpha3="QAT"
+   Code="634"
+
+/>
+  <Item
+  ShortName="Réunion" FullName="Réunion"
+  Alpha2="RE"
+  Alpha3="REU"
+  Code="638"
+
+  />
+  <Item
+   ShortName="Romania" FullName="Romania"
+   Alpha2="RO"
+   Alpha3="ROU"
+   Code="642"
+
+/>
+  <Item
+   ShortName="Russia" FullName="Russian Federation"
+   Alpha2="RU"
+   Alpha3="RUS"
+   Code="643"
+
+/>
+  <Item
+   ShortName="Rwanda" FullName="Rwanda"
+   Alpha2="RW"
+   Alpha3="RWA"
+   Code="646"
+
+/>
+  <Item
+   ShortName="Saint Barthélemy" FullName="Saint Barthélemy"
+   Alpha2="BL"
+   Alpha3="BLM"
+   Code="652"
+
+/>
+  <Item
+   ShortName="Saint Helena" FullName="Saint Helena, Ascension and Tristan da Cunha"
+   Alpha2="SH"
+   Alpha3="SHN"
+   Code="654"
+
+/>
+  <Item
+   ShortName="Saint Kitts and Nevis" FullName="Saint Kitts and Nevis"
+   Alpha2="KN"
+   Alpha3="KNA"
+   Code="659"
+
+/>
+  <Item
+   ShortName="Saint Lucia" FullName="Saint Lucia"
+   Alpha2="LC"
+   Alpha3="LCA"
+   Code="662"
+
+/>
+  <Item
+   ShortName="Saint Martin (France)" FullName="Saint Martin (French part)"
+   Alpha2="MF"
+   Alpha3="MAF"
+   Code="663"
+
+/>
+  <Item
+   ShortName="Saint Pierre and Miquelon" FullName="Saint Pierre and Miquelon"
+   Alpha2="PM"
+   Alpha3="SPM"
+   Code="666"
+
+/>
+  <Item
+   ShortName="Saint Vincent and the Grenadines" FullName="Saint Vincent and the Grenadines"
+   Alpha2="VC"
+   Alpha3="VCT"
+   Code="670"
+
+/>
+  <Item
+   ShortName="Samoa" FullName="Samoa"
+   Alpha2="WS"
+   Alpha3="WSM"
+   Code="882"
+
+/>
+  <Item
+   ShortName="San Marino" FullName="San Marino"
+   Alpha2="SM"
+   Alpha3="SMR"
+   Code="674"
+
+/>
+  <Item
+   ShortName="São Tomé and Príncipe" FullName="Sao Tome and Principe"
+   Alpha2="ST"
+   Alpha3="STP"
+   Code="678"
+
+/>
+  <Item
+   ShortName="Saudi Arabia" FullName="Saudi Arabia"
+   Alpha2="SA"
+   Alpha3="SAU"
+   Code="682"
+
+/>
+  <Item
+   ShortName="Senegal" FullName="Senegal"
+   Alpha2="SN"
+   Alpha3="SEN"
+   Code="686"
+
+/>
+  <Item
+   ShortName="Serbia" FullName="Serbia"
+   Alpha2="RS"
+   Alpha3="SRB"
+   Code="688"
+
+/>
+  <Item
+   ShortName="Seychelles" FullName="Seychelles"
+   Alpha2="SC"
+   Alpha3="SYC"
+   Code="690"
+
+/>
+  <Item
+   ShortName="Sierra Leone" FullName="Sierra Leone"
+   Alpha2="SL"
+   Alpha3="SLE"
+   Code="694"
+
+/>
+  <Item
+   ShortName="Singapore" FullName="Singapore"
+   Alpha2="SG"
+   Alpha3="SGP"
+   Code="702"
+
+/>
+  <Item
+   ShortName="Slovakia" FullName="Slovakia"
+   Alpha2="SK"
+   Alpha3="SVK"
+   Code="703"
+
+/>
+  <Item
+   ShortName="Slovenia" FullName="Slovenia"
+   Alpha2="SI"
+   Alpha3="SVN"
+   Code="705"
+
+/>
+  <Item
+   ShortName="Solomon Islands" FullName="Solomon Islands"
+   Alpha2="SB"
+   Alpha3="SLB"
+   Code="090"
+
+/>
+  <Item
+   ShortName="Somalia" FullName="Somalia"
+   Alpha2="SO"
+   Alpha3="SOM"
+   Code="706"
+
+/>
+  <Item
+   ShortName="South Africa" FullName="South Africa"
+   Alpha2="ZA"
+   Alpha3="ZAF"
+   Code="710"
+
+/>
+  <Item
+   ShortName="South Georgia and the South Sandwich Islands" FullName="South Georgia and the South Sandwich Islands"
+   Alpha2="GS"
+   Alpha3="SGS"
+   Code="239"
+
+/>
+  <Item
+   ShortName="Spain" FullName="Spain"
+   Alpha2="ES"
+   Alpha3="ESP"
+   Code="724"
+
+/>
+  <Item
+   ShortName="Sri Lanka" FullName="Sri Lanka"
+   Alpha2="LK"
+   Alpha3="LKA"
+   Code="144"
+
+/>
+  <Item
+   ShortName="Sudan" FullName="Sudan"
+   Alpha2="SD"
+   Alpha3="SDN"
+   Code="736"
+
+/>
+  <Item
+   ShortName="Suriname" FullName="Suriname"
+   Alpha2="SR"
+   Alpha3="SUR"
+   Code="740"
+
+/>
+  <Item
+   ShortName="Svalbard and Jan Mayen" FullName="Svalbard and Jan Mayen"
+   Alpha2="SJ"
+   Alpha3="SJM"
+   Code="744"
+
+/>
+  <Item
+   ShortName="Swaziland" FullName="Swaziland"
+   Alpha2="SZ"
+   Alpha3="SWZ"
+   Code="748"
+
+/>
+  <Item
+   ShortName="Sweden" FullName="Sweden"
+   Alpha2="SE"
+   Alpha3="SWE"
+   Code="752"
+
+/>
+  <Item
+   ShortName="Switzerland" FullName="Switzerland"
+   Alpha2="CH"
+   Alpha3="CHE"
+   Code="756"
+
+/>
+  <Item
+   ShortName="Syria" FullName="Syrian Arab Republic"
+   Alpha2="SY"
+   Alpha3="SYR"
+   Code="760"
+
+/>
+  <Item
+  ShortName="Taiwan" FullName="Taiwan, Province of China"
+  Alpha2="TW"
+  Alpha3="TWN"
+  Code="158"
+
+  />
+  <Item
+     ShortName="Tajikistan" FullName="Tajikistan"
+     Alpha2="TJ"
+     Alpha3="TJK"
+     Code="762"
+
+/>
+  <Item
+   ShortName="Tanzania" FullName="Tanzania, United Republic of"
+   Alpha2="TZ"
+   Alpha3="TZA"
+   Code="834"
+
+/>
+  <Item
+   ShortName="Thailand" FullName="Thailand"
+   Alpha2="TH"
+   Alpha3="THA"
+   Code="764"
+
+/>
+  <Item
+   ShortName="East Timor" FullName="Timor-Leste"
+   Alpha2="TL"
+   Alpha3="TLS"
+   Code="626"
+
+/>
+  <Item
+   ShortName="Togo" FullName="Togo"
+   Alpha2="TG"
+   Alpha3="TGO"
+   Code="768"
+
+/>
+  <Item
+   ShortName="Tokelau" FullName="Tokelau"
+   Alpha2="TK"
+   Alpha3="TKL"
+   Code="772"
+
+/>
+  <Item
+   ShortName="Tonga" FullName="Tonga"
+   Alpha2="TO"
+   Alpha3="TON"
+   Code="776"
+
+/>
+  <Item
+   ShortName="Trinidad and Tobago" FullName="Trinidad and Tobago"
+   Alpha2="TT"
+   Alpha3="TTO"
+   Code="780"
+
+/>
+  <Item
+   ShortName="Tunisia" FullName="Tunisia"
+   Alpha2="TN"
+   Alpha3="TUN"
+   Code="788"
+
+/>
+  <Item
+   ShortName="Turkey" FullName="Turkey"
+   Alpha2="TR"
+   Alpha3="TUR"
+   Code="792"
+
+/>
+  <Item
+   ShortName="Turkmenistan" FullName="Turkmenistan"
+   Alpha2="TM"
+   Alpha3="TKM"
+   Code="795"
+
+/>
+  <Item
+   ShortName="Turks and Caicos Islands" FullName="Turks and Caicos Islands"
+   Alpha2="TC"
+   Alpha3="TCA"
+   Code="796"
+
+/>
+  <Item
+   ShortName="Tuvalu" FullName="Tuvalu"
+   Alpha2="TV"
+   Alpha3="TUV"
+   Code="798"
+
+/>
+  <Item
+   ShortName="Uganda" FullName="Uganda"
+   Alpha2="UG"
+   Alpha3="UGA"
+   Code="800"
+
+/>
+  <Item
+   ShortName="Ukraine" FullName="Ukraine"
+   Alpha2="UA"
+   Alpha3="UKR"
+   Code="804"
+
+/>
+  <Item
+   ShortName="United Arab Emirates" FullName="United Arab Emirates"
+   Alpha2="AE"
+   Alpha3="ARE"
+   Code="784"
+
+/>
+  <Item
+   ShortName="United Kingdom" FullName="United Kingdom"
+   Alpha2="GB"
+   Alpha3="GBR"
+   Code="826"
+
+/>
+  <Item
+   ShortName="United States" FullName="United States"
+   Alpha2="US"
+   Alpha3="USA"
+   Code="840"
+
+/>
+  <Item
+   ShortName="United States Minor Outlying Islands" FullName="United States Minor Outlying Islands"
+   Alpha2="UM"
+   Alpha3="UMI"
+   Code="581"
+
+/>
+  <Item
+   ShortName="Uruguay" FullName="Uruguay"
+   Alpha2="UY"
+   Alpha3="URY"
+   Code="858"
+
+/>
+  <Item
+   ShortName="Uzbekistan" FullName="Uzbekistan"
+   Alpha2="UZ"
+   Alpha3="UZB"
+   Code="860"
+
+/>
+  <Item
+   ShortName="Vanuatu" FullName="Vanuatu"
+   Alpha2="VU"
+   Alpha3="VUT"
+   Code="548"
+
+/>
+  <Item
+   ShortName="Venezuela" FullName="Venezuela, Bolivarian Republic of"
+   Alpha2="VE"
+   Alpha3="VEN"
+   Code="862"
+
+/>
+  <Item
+   ShortName="Vietnam" FullName="Viet Nam"
+   Alpha2="VN"
+   Alpha3="VNM"
+   Code="704"
+
+/>
+  <Item
+   ShortName="British Virgin Islands" FullName="Virgin Islands, British"
+   Alpha2="VG"
+   Alpha3="VGB"
+   Code="092"
+
+/>
+  <Item
+   ShortName="Virgin Islands, U.S." FullName="United States Virgin Islands"
+   Alpha2="VI"
+   Alpha3="VIR"
+   Code="850"
+
+/>
+  <Item
+   ShortName="Wallis and Futuna" FullName="Wallis and Futuna"
+   Alpha2="WF"
+   Alpha3="WLF"
+   Code="876"
+
+/>
+  <Item
+    ShortName="Western Sahara" FullName="Western Sahara"
+    Alpha2="EH"
+    Alpha3="ESH"
+    Code="732"
+
+      />
+  <Item
+   ShortName="Yemen" FullName="Yemen"
+   Alpha2="YE"
+   Alpha3="YEM"
+   Code="887"
+
+/>
+  <Item
+   ShortName="Zambia" FullName="Zambia"
+   Alpha2="ZM"
+   Alpha3="ZMB"
+   Code="894"
+
+/>
+  <Item
+   ShortName="Zimbabwe" FullName="Zimbabwe"
+   Alpha2="ZW"
+   Alpha3="ZWE"
+   Code="716"
+
+/>
+</Items>

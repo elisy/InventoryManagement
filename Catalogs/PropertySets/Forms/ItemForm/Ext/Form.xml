@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="Форма_КоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="NotificationProcessing">NotificationProcessing</Event>
+		<Event name="OnOpen">OnOpen</Event>
+		<Event name="BeforeClose">BeforeClose</Event>
+		<Event name="OnCreateAtServer">OnCreateAtServer</Event>
+		<Event name="BeforeWriteAtServer">BeforeWriteAtServer</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Description" id="1">
+			<DataPath>Object.Description</DataPath>
+			<Wrap>false</Wrap>
+			<ContextMenu name="DescriptionContextMenu" id="2"/>
+			<ExtendedTooltip name="DescriptionExtendedTooltip" id="66"/>
+		</InputField>
+		<UsualGroup name="AdditionalProperties" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные свойства</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional properties</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные свойства</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional properties</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="AdditionalPropertiesExtendedTooltip" id="67"/>
+			<ChildItems>
+				<UsualGroup name="Selected" id="16">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбранные</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Selected</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбранные</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Selected</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="SelectedExtendedTooltip" id="68"/>
+					<ChildItems>
+						<Table name="TableAttributes" id="22">
+							<Representation>List</Representation>
+							<TitleLocation>Top</TitleLocation>
+							<SkipOnInput>false</SkipOnInput>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>TableAttributes</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional properties</v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont kind="AutoFont"/>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="TableAttributesContextMenu" id="23"/>
+							<AutoCommandBar name="TableAttributesCommandBar" id="24">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="Delete" id="60">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TableAttributes.StandardCommand.Delete</CommandName>
+										<ExtendedTooltip name="DeleteExtendedTooltip" id="69"/>
+									</Button>
+									<Button name="MoveUp" id="61">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TableAttributes.StandardCommand.MoveUp</CommandName>
+										<ExtendedTooltip name="MoveUpExtendedTooltip" id="70"/>
+									</Button>
+									<Button name="MoveDown" id="62">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TableAttributes.StandardCommand.MoveDown</CommandName>
+										<ExtendedTooltip name="MoveDownExtendedTooltip" id="71"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="TableAttributesExtendedTooltip" id="72"/>
+							<SearchStringAddition name="TableAttributesSearchString" id="73">
+								<AdditionSource>
+									<Item>TableAttributes</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="TableAttributesSearchStringContextMenu" id="74"/>
+								<ExtendedTooltip name="TableAttributesSearchStringExtendedTooltip" id="75"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="TableAttributesViewStatus" id="76">
+								<AdditionSource>
+									<Item>TableAttributes</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="TableAttributesViewStatusContextMenu" id="77"/>
+								<ExtendedTooltip name="TableAttributesViewStatusExtendedTooltip" id="78"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="TableAttributesSearchControl" id="79">
+								<AdditionSource>
+									<Item>TableAttributes</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="TableAttributesSearchControlContextMenu" id="80"/>
+								<ExtendedTooltip name="TableAttributesSearchControlExtendedTooltip" id="81"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">TableAttributesSelection</Event>
+								<Event name="BeforeAddRow">TableAttributesBeforeAddRow</Event>
+								<Event name="AfterDeleteRow">TableAttributesAfterDeleteRow</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="Property1" id="25">
+									<DataPath>TableAttributes.Property</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Wrap>false</Wrap>
+									<ContextMenu name="Property1ContextMenu" id="26"/>
+									<ExtendedTooltip name="Property1ExtendedTooltip" id="82"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<Table name="TableInformation" id="27">
+							<Representation>List</Representation>
+							<TitleLocation>Top</TitleLocation>
+							<SkipOnInput>false</SkipOnInput>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>TableInformation</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные сведения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional information</v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont kind="AutoFont"/>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="TableInformationContextMenu" id="28"/>
+							<AutoCommandBar name="TableInformationCommandBar" id="29">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="Delete1" id="63">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TableInformation.StandardCommand.Delete</CommandName>
+										<ExtendedTooltip name="Delete1ExtendedTooltip" id="83"/>
+									</Button>
+									<Button name="MoveUp1" id="64">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TableInformation.StandardCommand.MoveUp</CommandName>
+										<ExtendedTooltip name="MoveUp1ExtendedTooltip" id="84"/>
+									</Button>
+									<Button name="MoveDown1" id="65">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.TableInformation.StandardCommand.MoveDown</CommandName>
+										<ExtendedTooltip name="MoveDown1ExtendedTooltip" id="85"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="TableInformationExtendedTooltip" id="86"/>
+							<SearchStringAddition name="TableInformationSearchString" id="87">
+								<AdditionSource>
+									<Item>TableInformation</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="TableInformationSearchStringContextMenu" id="88"/>
+								<ExtendedTooltip name="TableInformationSearchStringExtendedTooltip" id="89"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="TableInformationViewStatus" id="90">
+								<AdditionSource>
+									<Item>TableInformation</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="TableInformationViewStatusContextMenu" id="91"/>
+								<ExtendedTooltip name="TableInformationViewStatusExtendedTooltip" id="92"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="TableInformationSearchControl" id="93">
+								<AdditionSource>
+									<Item>TableInformation</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="TableInformationSearchControlContextMenu" id="94"/>
+								<ExtendedTooltip name="TableInformationSearchControlExtendedTooltip" id="95"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">TableInformationSelection</Event>
+								<Event name="BeforeAddRow">ТабРеквизитыПередНачаломДобавления</Event>
+								<Event name="AfterDeleteRow">ТабРеквизитыПослеУдаления</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="Property2" id="30">
+									<DataPath>TableInformation.Property</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Wrap>false</Wrap>
+									<ContextMenu name="Property2ContextMenu" id="31"/>
+									<ExtendedTooltip name="Property2ExtendedTooltip" id="96"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="AllProperties" id="55">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Все свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>All properties</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Все свойства</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>All properties</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="AllPropertiesExtendedTooltip" id="97"/>
+					<ChildItems>
+						<Table name="PropertyTree" id="39">
+							<Representation>Tree</Representation>
+							<TitleLocation>Top</TitleLocation>
+							<SkipOnInput>false</SkipOnInput>
+							<DefaultItem>true</DefaultItem>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>PropertyTree</DataPath>
+							<RowPictureDataPath>~PropertyTree.НомерКартинкиСведения</RowPictureDataPath>
+							<RowsPicture>
+								<xr:Ref>CommonPicture.AdditionalPropertiesAndInformation</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+								<xr:TransparentPixel x="17" y="8"/>
+							</RowsPicture>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все дополнительные реквизиты и сведения</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>All additional properties and information</v8:content>
+								</v8:item>
+							</Title>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>false</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<ContextMenu name="PropertyTreeContextMenu" id="40"/>
+							<AutoCommandBar name="PropertyTreeCommandBar" id="41">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="AddProperty" id="54">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Command.AddProperty</CommandName>
+										<ExtendedTooltip name="AddPropertyExtendedTooltip" id="98"/>
+									</Button>
+									<Button name="Create" id="56">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.PropertyTree.StandardCommand.Create</CommandName>
+										<ExtendedTooltip name="CreateExtendedTooltip" id="99"/>
+									</Button>
+									<Button name="CreateFolder" id="57">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.PropertyTree.StandardCommand.CreateFolder</CommandName>
+										<ExtendedTooltip name="CreateFolderExtendedTooltip" id="100"/>
+									</Button>
+									<Button name="Change" id="59">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.PropertyTree.StandardCommand.Change</CommandName>
+										<ExtendedTooltip name="ChangeExtendedTooltip" id="101"/>
+									</Button>
+									<Button name="Copy" id="58">
+										<Type>CommandBarButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>Form.Item.PropertyTree.StandardCommand.Copy</CommandName>
+										<ExtendedTooltip name="CopyExtendedTooltip" id="102"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="PropertyTreeExtendedTooltip" id="103"/>
+							<SearchStringAddition name="PropertyTreeSearchString" id="104">
+								<AdditionSource>
+									<Item>PropertyTree</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="PropertyTreeSearchStringContextMenu" id="105"/>
+								<ExtendedTooltip name="PropertyTreeSearchStringExtendedTooltip" id="106"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="PropertyTreeViewStatus" id="107">
+								<AdditionSource>
+									<Item>PropertyTree</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="PropertyTreeViewStatusContextMenu" id="108"/>
+								<ExtendedTooltip name="PropertyTreeViewStatusExtendedTooltip" id="109"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="PropertyTreeSearchControl" id="110">
+								<AdditionSource>
+									<Item>PropertyTree</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="PropertyTreeSearchControlContextMenu" id="111"/>
+								<ExtendedTooltip name="PropertyTreeSearchControlExtendedTooltip" id="112"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">PropertyTreeSelection</Event>
+								<Event name="BeforeAddRow">PropertyTreeBeforeAddRow</Event>
+								<Event name="BeforeRowChange">PropertyTreeBeforeRowChange</Event>
+							</Events>
+							<ChildItems>
+								<InputField name="Reference" id="42">
+									<DataPath>PropertyTree.Ref</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Доп.реквизиты и сведения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional properties and information</v8:content>
+										</v8:item>
+									</Title>
+									<Wrap>false</Wrap>
+									<ContextMenu name="ReferenceContextMenu" id="43"/>
+									<ExtendedTooltip name="ReferenceExtendedTooltip" id="113"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Object" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.PropertySets</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="PropertyTree" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево свойств</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Property tree</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>PropertyTree.InformationIconNumber</Field>
+				<Field>~PropertyTree.НомерКартинкиСведения</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>SELECT
+	Table.Ref,
+	CASE
+		WHEN Table.Ref IN (&amp;arraySelected)
+			THEN TRUE
+		ELSE FALSE
+	END AS Selected,
+	CASE
+		WHEN Table.IsFolder
+			THEN 0
+		WHEN Table.IsAdditionalInformation
+			THEN 2
+		ELSE 1
+	END + CASE
+		WHEN Table.DeletionMark
+			THEN 3
+		ELSE 0
+	END AS InformationIconNumber,
+	Table.IsFolder
+FROM
+	ChartOfCharacteristicTypes.AdditionalPropertiesAndInformation AS Table</QueryText>
+				<MainTable>ChartOfCharacteristicTypes.AdditionalPropertiesAndInformation</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Ref</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Selected</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>BackColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">web:Linen</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>TextColor</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">web:LightGray</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Font</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="TableAttributes" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таб реквизиты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Table attributes</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+			<Columns>
+				<Column name="Property" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойство</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Property</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.AdditionalPropertiesAndInformation</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="TableInformation" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таб сведения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Table information</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+			<Columns>
+				<Column name="Property" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойство</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Property</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.AdditionalPropertiesAndInformation</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="PropertySetHasBeenWritten" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Набор свойств был записан</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Property set has been written</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="AddProperty" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в набор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add property</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить доп.реквизит/сведение в набор</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add property</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.AddPropertyToList</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:TransparentPixel x="26" y="3"/>
+			</Picture>
+			<Action>OnAddProperty</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

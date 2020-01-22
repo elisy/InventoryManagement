@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="Форма_КоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="ChoiceProcessing">ChoiceProcessing</Event>
+		<Event name="NotificationProcessing">NotificationProcessing</Event>
+		<Event name="OnCreateAtServer">OnCreateAtServer</Event>
+	</Events>
+	<ChildItems>
+		<Table name="Currencies" id="25">
+			<SkipOnInput>false</SkipOnInput>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>List</DataPath>
+			<RowPictureDataPath>List.DefaultPicture</RowPictureDataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="CurrenciesContextMenu" id="26"/>
+			<AutoCommandBar name="CurrenciesCommandBar" id="27">
+				<ChildItems>
+					<Button name="ButtonChooseFromISO" id="8">
+						<Type>CommandBarButton</Type>
+						<SkipOnInput>false</SkipOnInput>
+						<CommandName>Form.Command.CommandChooseFromISOList</CommandName>
+						<TextColor>style:ButtonTextColor</TextColor>
+						<BackColor>style:ButtonBackColor</BackColor>
+						<BorderColor>style:BorderColor</BorderColor>
+						<ExtendedTooltip name="ButtonChooseFromISOExtendedTooltip" id="43"/>
+					</Button>
+					<Button name="ButtonDownloadExchangeRates" id="3">
+						<Type>CommandBarButton</Type>
+						<SkipOnInput>false</SkipOnInput>
+						<CommandName>Form.Command.CommandDownloadExchangeRates</CommandName>
+						<TextColor>style:ButtonTextColor</TextColor>
+						<BackColor>style:ButtonBackColor</BackColor>
+						<BorderColor>style:BorderColor</BorderColor>
+						<ExtendedTooltip name="ButtonDownloadExchangeRatesExtendedTooltip" id="44"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="CurrenciesExtendedTooltip" id="45"/>
+			<SearchStringAddition name="CurrenciesSearchString" id="46">
+				<AdditionSource>
+					<Item>Currencies</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="CurrenciesSearchStringContextMenu" id="47"/>
+				<ExtendedTooltip name="CurrenciesSearchStringExtendedTooltip" id="48"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="CurrenciesViewStatus" id="49">
+				<AdditionSource>
+					<Item>Currencies</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="CurrenciesViewStatusContextMenu" id="50"/>
+				<ExtendedTooltip name="CurrenciesViewStatusExtendedTooltip" id="51"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="CurrenciesSearchControl" id="52">
+				<AdditionSource>
+					<Item>Currencies</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="CurrenciesSearchControlContextMenu" id="53"/>
+				<ExtendedTooltip name="CurrenciesSearchControlExtendedTooltip" id="54"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="Code" id="28">
+					<DataPath>List.Code</DataPath>
+					<Width>3</Width>
+					<Wrap>false</Wrap>
+					<ContextMenu name="CodeContextMenu" id="29"/>
+					<ExtendedTooltip name="CodeExtendedTooltip" id="55"/>
+				</InputField>
+				<InputField name="Description" id="32">
+					<DataPath>List.Description</DataPath>
+					<Width>5</Width>
+					<Wrap>false</Wrap>
+					<ContextMenu name="DescriptionContextMenu" id="33"/>
+					<ExtendedTooltip name="DescriptionExtendedTooltip" id="56"/>
+				</InputField>
+				<InputField name="DescriptionLong" id="40">
+					<DataPath>List.DescriptionLong</DataPath>
+					<Width>20</Width>
+					<Wrap>false</Wrap>
+					<ContextMenu name="DescriptionLongContextMenu" id="41"/>
+					<ExtendedTooltip name="DescriptionLongExtendedTooltip" id="57"/>
+				</InputField>
+				<ColumnGroup name="ExchangeRateRatio" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Курс кратность</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange rate ratio</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Курс кратность</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Exchange rate ratio</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>InCell</Group>
+					<ExtendedTooltip name="ExchangeRateRatioExtendedTooltip" id="58"/>
+					<ChildItems>
+						<InputField name="ExchangeRate" id="38">
+							<DataPath>List.ExchangeRate</DataPath>
+							<Width>8</Width>
+							<Wrap>false</Wrap>
+							<ContextMenu name="ExchangeRateContextMenu" id="39"/>
+							<ExtendedTooltip name="ExchangeRateExtendedTooltip" id="59"/>
+						</InputField>
+						<InputField name="Ratio" id="36">
+							<DataPath>List.Ratio</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<Width>5</Width>
+							<Wrap>false</Wrap>
+							<ContextMenu name="RatioContextMenu" id="37"/>
+							<ExtendedTooltip name="RatioExtendedTooltip" id="60"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="List" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>SELECT
+	Currencies.DeletionMark,
+	Currencies.Code,
+	Currencies.Description,
+	Currencies.DescriptionLong,
+	CurrencyRates.ExchangeRate,
+	CurrencyRates.Ratio
+FROM
+	Catalog.Currencies AS Currencies
+		LEFT JOIN InformationRegister.CurrencyRates.SliceLast(&amp;EndDate, ) AS CurrencyRates
+		ON Currencies.Ref = CurrencyRates.Currency</QueryText>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="CommandDownloadExchangeRates" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузка курсов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Download exchange rates</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить курсы валют с веб-сайта РБК</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command download exchange rates</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>CommandDownloadExchangeRates</Action>
+		</Command>
+		<Command name="CommandChooseFromISOList" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Choose from ISO-4217 list</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор из классификатора</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать валюты из Общероссийского классификатора валют</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Command choose from ISOList</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>CommandChooseFromISOList</Action>
+		</Command>
+	</Commands>
+</Form>
